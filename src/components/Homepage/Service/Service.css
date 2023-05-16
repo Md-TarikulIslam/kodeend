@@ -1,0 +1,47 @@
+.height {
+    height: 480px;
+}
+
+.image-zoom {
+    transition: transform .2s;
+}
+
+.image-zoom:hover {
+    transform: scale(1.1);
+}
+
+.what-text {
+    font-size: 18px;
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px 5px rgba(128, 128, 128, 0.2);
+}
+
+.service-text {
+    font-size: 36px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.service-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 10px;
+    margin: 40px auto;
+    justify-content: space-evenly;
+    font-weight: 600;
+
+}
+
+.service-btn:hover {
+    box-shadow: 0px 2px 12px 1px #2195f38f;
+}

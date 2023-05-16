@@ -1,3 +1,21 @@
 .hero-image{
     width: 400px;
 }
+
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    padding: 30px 0;
+}
+.bounce-2 {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
