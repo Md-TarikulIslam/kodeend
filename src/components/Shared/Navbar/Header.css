@@ -1,0 +1,7 @@
+.bg-color {
+    background: rgb(64,100,172);
+    background: radial-gradient(circle, rgba(64,100,172,1) 21%, rgba(55,30,113,1) 100%);
+}
+.logo-size{
+    width: 130px;
+}
