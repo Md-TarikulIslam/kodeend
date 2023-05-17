@@ -9,7 +9,7 @@ export default function Hero() {
   <div>
       <Carousel transition={{ duration: 2 }} className=" ">
       <div className="flex items-center justify-evenly flex-col-reverse lg:flex-row bg-color">
-        <div>
+        <div data-aos="fade-right">
           <Typography
             variant="h1"
             color="white"
@@ -29,7 +29,7 @@ export default function Hero() {
           <Button color="blue" size="lg" className="ml-5 mb-10 lg:mb-0">Read More</Button>
         </div>
 
-       <div className="stage">
+       <div data-aos="fade-left" className="stage">
        <img
           src={img1}
           alt="image 1"

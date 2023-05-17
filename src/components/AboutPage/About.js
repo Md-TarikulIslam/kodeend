@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import img from "../../../assets/images/about/1.jpg";
-import "./About.css";
+import img from "../../../src/assets/images/about/1.jpg";
 import { FcReading } from "react-icons/fc";
-import Contact from "../Contact/Contact";
+
 
 const About = () => {
   return (
@@ -38,7 +37,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Contact></Contact>
+      
     </div>
   );
 };

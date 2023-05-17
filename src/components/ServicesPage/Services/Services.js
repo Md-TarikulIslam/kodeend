@@ -4,29 +4,25 @@ import {
   CardBody,
   CardFooter,
   Typography,
-  Button,
+  Button
 } from "@material-tailwind/react";
-import { FcServices } from "react-icons/fc";
-
-import allData from "./fakedata";
-import "./Service.css";
-import About from "../About/About";
-
-export default function Service() {
+import allData from './fakedata'
+ 
+export default function Services() {
   return (
-    <div>
-      <div data-aos="fade-up">
+   <div>
+    <div data-aos="fade-up">
         <h1 className="what-text">What we can do for you?</h1>
         <h1 className="service-text font-bold">Services we can help you with</h1>
       </div>
-      <div className="flex justify-evenly flex-col items-center lg:flex-row mt-20 lg:mt-0 gap-20 lg:gap-0">
-        {allData.map((data) => (
+    <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-3 lg:pl-32  items-center justify-evenly ">
+    {allData.map((data) => (
           <div
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <Card className="mt-6 w-96 height">
+            <Card className="my-16 w-96 height">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
                   src={data.img}
@@ -53,14 +49,7 @@ export default function Service() {
             </Card>
           </div>
         ))}
-      </div>
-      <div className="service-btn">
-        <button className="tracking-widest">MORE SERVICES</button>
-        <span className="text-3xl">
-          <FcServices />
-        </span>
-      </div>
-      <About></About>
     </div>
+   </div>
   );
 }
