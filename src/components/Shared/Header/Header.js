@@ -23,7 +23,7 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 flex  flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography as="li" variant="" color="white" className="p-1   ">
         <Link to="/" className="flex text-xl font-bold items-center">
           Home
@@ -54,7 +54,7 @@ export default function Header() {
 
   return (
     <>
-      <Navbar className="sticky bg-color inset-0 z-10 h-max max-w-full rounded-none border-none py-2 px-4 lg:px-32 lg:py-4">
+      <Navbar className="stick bg-color inset-0 z-10 h-max max-w-full rounded-none border-none py-2 px-4 lg:px-32 lg:py-4">
         <div className="flex items-center justify-between text-white-900">
           <img className="logo-size" src={logo} alt="" />
           <div className="flex items-center gap-4">

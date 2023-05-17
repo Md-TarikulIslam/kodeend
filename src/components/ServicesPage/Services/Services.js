@@ -15,7 +15,7 @@ export default function Services() {
         <h1 className="what-text">What we can do for you?</h1>
         <h1 className="service-text font-bold">Services we can help you with</h1>
       </div>
-    <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-3 lg:pl-32  items-center justify-evenly ">
+    <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
     {allData.map((data) => (
           <div
             data-aos="flip-left"

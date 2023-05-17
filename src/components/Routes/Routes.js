@@ -5,6 +5,7 @@ import About from "../AboutPage/About";
 import Contact from "../ContactPage/Contact";
 import Services from "../ServicesPage/Services/Services";
 import Blogs from "../BlogsPage/Blogs/Blogs";
+import AIAndML from "../BlogsPage/Blogs/Blog/AIAndML/AIAndML";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/blogs",
         element: <Blogs></Blogs>,
+      },
+      {
+        path: "/ai-ml",
+        element: <AIAndML></AIAndML>
       },
     ],
   },

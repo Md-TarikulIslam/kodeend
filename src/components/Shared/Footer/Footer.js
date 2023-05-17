@@ -18,15 +18,15 @@ const Footer = () => (
                 <h1 className="head-text">Address</h1>
                 <div className="flex items-center">
                     <p className="text-4xl mr-3"><MdLocationPin /></p>
-                    <p className="text text-2">Räfsgatan 36, 21633 Limhamn, Sweden</p>
+                    <p className="text text-2">Räfsgatan 36, <br /> 21633 Limhamn, <br /> Sweden</p>
                 </div>
                 <div className="flex items-center">
                     <p className="text-4xl mr-3"><MdPhone /></p>
-                    <p className="text">+46 708698276</p>
+                    <a href="tel:+46 708698276" className="text">+46 708698276</a>
                 </div>
                 <div className="flex items-center">
                     <p className="text-4xl mr-3"> <MdEmail /></p>
-                    <p className="text">info@kodeend.com</p>
+                    <a href="mailto: info@kodeend.com" className="text">info@kodeend.com</a>
                 </div>
             </div>
             <div className="mb-10 lg:mb-0">

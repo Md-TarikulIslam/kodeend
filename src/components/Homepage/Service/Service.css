@@ -1,5 +1,12 @@
 .height {
     height: 480px;
+    transition: transform .1s;
+
+}
+.height:hover{
+    transform: scale(1.03);
+    box-shadow: none;
+    box-shadow: 1px 1px 10px 1px rgba(33, 149, 243, 0.282);
 }
 
 .image-zoom {

@@ -7,6 +7,7 @@ import {
     Button
   } from "@material-tailwind/react";
   import allData from './fakedata'
+import { Link } from "react-router-dom";
    
   export default function Blogs() {
     return (
@@ -15,7 +16,7 @@ import {
           <h1 className="what-text">Our blogs</h1>
           <h1 className="service-text font-bold">All the blogs are here</h1>
         </div>
-      <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-3 lg:pl-32  items-center justify-evenly ">
+      <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
       {allData.map((data) => (
             <div
               data-aos="flip-left"
@@ -44,7 +45,7 @@ import {
                   </Typography>
                 </CardBody>
                 <CardFooter className="pt-0">
-                  <Button>Read More</Button>
+                  <Link to={data.link}><Button>Read More</Button></Link>
                 </CardFooter>
               </Card>
             </div>

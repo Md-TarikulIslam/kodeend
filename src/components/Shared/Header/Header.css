@@ -5,3 +5,8 @@
 .logo-size{
     width: 130px;
 }
+.stick{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}

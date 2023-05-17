@@ -11,12 +11,14 @@ const fakedata = [
     img: img1,
     title: "AI and Machine Learning Are the Future",
     desc: "We live in a technological age where innovation and development are the norm.",
+    link: '/ai-ml'
   },
   {
     id: 2,
     img: img2,
     title: "Boost Productivity with ERP Softwares",
     desc: "An ERP systems's primary goal is to manage and automate a business's daily activities.",
+    link: '/erp'
   },
   {
     id: 3,
