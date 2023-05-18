@@ -11,18 +11,21 @@ import { FcServices } from "react-icons/fc";
 import allData from "./fakedata";
 import "./Service.css";
 import About from "../About/About";
+import { Link } from "react-router-dom";
 
 export default function Service() {
   return (
     <div>
       <div data-aos="fade-up">
         <h1 className="what-text">What we can do for you?</h1>
-        <h1 className="service-text font-bold">Services we can help you with</h1>
+        <h1 className="service-text font-bold">
+          Services we can help you with
+        </h1>
       </div>
       <div className="flex justify-evenly flex-col items-center lg:flex-row mt-20 lg:mt-0 gap-20 lg:gap-0">
         {allData.map((data) => (
           <div
-            data-aos="flip-left"
+            data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
@@ -55,7 +58,10 @@ export default function Service() {
         ))}
       </div>
       <div className="service-btn">
-        <button className="tracking-widest">MORE SERVICES</button>
+        <Link to="/services">
+          {" "}
+          <button className="tracking-widest">MORE SERVICES</button>
+        </Link>
         <span className="text-3xl">
           <FcServices />
         </span>

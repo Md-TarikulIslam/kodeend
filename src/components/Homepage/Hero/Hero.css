@@ -1,8 +1,9 @@
-.lead{
+.lead {
     line-height: 70px;
     letter-spacing: 3px;
 }
-.hero-image{
+
+.hero-image {
     width: 400px;
 }
 
@@ -14,43 +15,54 @@
     transform-origin: bottom;
     padding: 30px 0;
 }
+
 .bounce-2 {
     animation-name: bounce-2;
     animation-timing-function: ease;
 }
+
 @keyframes bounce-2 {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @media screen and (max-width:640px) {
-.lead{
-    line-height: inherit;
-}
-br{
-    display: none;
-}
-.margin{
-    height: 191px;
-}
+    .lead {
+        line-height: inherit;
+    }
+
+    .break {
+        display: none;
+    }
+
+    .margin {
+        height: 191px;
+    }
 }
 
 
 @media screen and (min-width:641px) and (max-width:768px) {
-    .lead{
+    .lead {
         line-height: inherit;
     }
-    br{
+
+    .break {
         display: none;
     }
-    .margin{
+
+    .margin {
         height: 113px;
     }
 
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {
-
-
-}
+@media screen and (min-width:769px) and (max-width:1024px) {}

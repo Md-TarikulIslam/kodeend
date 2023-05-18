@@ -18,7 +18,7 @@ export default function Hero() {
               color="white"
               className="mb-4 mt-4 px-5 lead font-bold text-3xl md:text-4xl lg:text-5xl "
             >
-              Elevate Your Software <br />
+              Elevate Your Software <span className="break"><br /></span>
               with <span className="text-red-300">KodeEnd IT Solutions</span>
             </Typography>
             <Typography
@@ -26,7 +26,7 @@ export default function Hero() {
               color="white"
               className="mb-12 px-5 font-regular text-justify opacity-80"
             >
-              Optimize your operations and decision making <br /> with our AI
+              Optimize your operations and decision making <span className="break"><br /></span> with our AI
               and data science services
             </Typography>
             <Link to="/services">
@@ -52,7 +52,7 @@ export default function Hero() {
               color="white"
               className="mb-4 mt-4 px-5 lead font-bold text-3xl md:text-4xl lg:text-5xl "
             >
-              <span className="text-red-300">KodeEnd IT</span> is your <br />
+              <span className="text-red-300">KodeEnd IT</span> is your <span className="break"><br /></span>
               Intelligence solutions
             </Typography>
             <Typography
@@ -60,7 +60,7 @@ export default function Hero() {
               color="white"
               className="lg:mb-12 margin px-5 font-regular  text-justify opacity-80"
             >
-              Unlock new opportunities and insights with our AI and <br /> data
+              Unlock new opportunities and insights with our AI and <span className="break"><br /></span> data
               science-driven web solutions.
             </Typography>
             <Link to="/services">
@@ -86,7 +86,7 @@ export default function Hero() {
               color="white"
               className="mb-4 mt-4 px-5 lead font-bold text-3xl md:text-4xl lg:text-5xl "
             >
-              Empower your business <br />
+              Empower your business <span className="break"><br /></span>
               with <span className="text-red-300"> KodeEnd IT Solutions</span>
             </Typography>
             <Typography
@@ -94,7 +94,7 @@ export default function Hero() {
               color="white"
               className="mb-12 px-5 font-regular text-justify opacity-80"
             >
-              Unlock new opportunities and insights with our <br /> AI and data
+              Unlock new opportunities and insights with our <span className="break"><br /></span> AI and data
               science-driven web solutions.
             </Typography>
             <Link to="/services">

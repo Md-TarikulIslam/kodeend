@@ -4,19 +4,22 @@ import {
   CardBody,
   CardFooter,
   Typography,
-  Button
+  Button,
 } from "@material-tailwind/react";
-import allData from './fakedata'
- 
+import allData from "./fakedata";
+import { Link } from "react-router-dom";
+
 export default function Services() {
   return (
-   <div>
-    <div data-aos="fade-up">
+    <div>
+      <div data-aos="fade-up">
         <h1 className="what-text">What we can do for you?</h1>
-        <h1 className="service-text font-bold">Services we can help you with</h1>
+        <h1 className="service-text font-bold">
+          Services we can help you with
+        </h1>
       </div>
-    <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
-    {allData.map((data) => (
+      <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
+        {allData.map((data) => (
           <div
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
@@ -44,12 +47,14 @@ export default function Services() {
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
-                <Button>Read More</Button>
+                <Link to={data.link}>
+                  <Button>Read More</Button>
+                </Link>
               </CardFooter>
             </Card>
           </div>
         ))}
+      </div>
     </div>
-   </div>
   );
 }

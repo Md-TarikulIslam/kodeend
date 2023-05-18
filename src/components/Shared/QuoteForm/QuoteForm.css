@@ -1,0 +1,31 @@
+.quote-text {
+    font-size: 18px;
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px 5px rgba(128, 128, 128, 0.2);
+    letter-spacing: 2px;
+
+}
+.send-btn2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 10px;
+    margin: 30px 0;
+    justify-content: space-evenly;
+    font-weight: 600;
+    height: 60px;
+
+}
+
+.send-btn2:hover {
+    box-shadow: 0px 2px 12px 1px #2195f38f;
+}

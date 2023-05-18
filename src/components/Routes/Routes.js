@@ -11,6 +11,7 @@ import BlockChain from "../BlogsPage/Blogs/Blog/BlockChain/BlockChain";
 import ComputerVision from "../BlogsPage/Blogs/Blog/ComputerVision/ComputerVision";
 import SQA from "../BlogsPage/Blogs/Blog/SQA/SQA";
 import GPT from "../BlogsPage/Blogs/Blog/GPT/GPT";
+import WebDevelopment from "../ServicesPage/Services/Service/WebDevelopment/WebDevelopment";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
       {
         path: "/gpt",
         element: <GPT></GPT>,
+      },
+      {
+        path: "/services/web-development",
+        element: <WebDevelopment></WebDevelopment>
       },
     ],
   },
