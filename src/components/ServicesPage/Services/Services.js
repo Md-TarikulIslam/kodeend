@@ -21,7 +21,7 @@ export default function Services() {
       <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
         {allData.map((data) => (
           <div
-            data-aos="flip-left"
+            data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
@@ -42,7 +42,7 @@ export default function Services() {
                 >
                   {data.title}
                 </Typography>
-                <Typography className="h-32 text-justify font-regular">
+                <Typography className="h-32 text-left font-regular">
                   {data.desc}
                 </Typography>
               </CardBody>

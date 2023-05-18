@@ -46,7 +46,7 @@ export default function Service() {
                 >
                   {data.title}
                 </Typography>
-                <Typography className="h-32 text-justify font-regular">
+                <Typography className="h-32 text-left font-regular">
                   {data.desc}
                 </Typography>
               </CardBody>
