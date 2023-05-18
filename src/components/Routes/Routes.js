@@ -12,6 +12,7 @@ import ComputerVision from "../BlogsPage/Blogs/Blog/ComputerVision/ComputerVisio
 import SQA from "../BlogsPage/Blogs/Blog/SQA/SQA";
 import GPT from "../BlogsPage/Blogs/Blog/GPT/GPT";
 import WebDevelopment from "../ServicesPage/Services/Service/WebDevelopment/WebDevelopment";
+import AIML from "../ServicesPage/Services/Service/AI&ML/AI&ML";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
       {
         path: "/services/web-development",
         element: <WebDevelopment></WebDevelopment>
+      },
+      {
+        path: "/services/ai-ml",
+        element: <AIML></AIML>
       },
     ],
   },
