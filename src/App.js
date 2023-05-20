@@ -3,8 +3,10 @@ import "./App.css";
 import router from "./components/Routes/Routes";
 import { useEffect, useState } from "react";
 import Aos from "aos";
+import ScrollToTop from "react-scroll-to-top";
 
 import { Vortex } from "react-loader-spinner";
+import icon from "./assets/images/arrow.png";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -34,6 +36,10 @@ function App() {
       ) : (
         <RouterProvider router={router}></RouterProvider>
       )}
+      <ScrollToTop
+        smooth
+        component={<img style={{ marginLeft: "3px" }} src={icon} alt="up" />}
+      />
     </div>
   );
 }
