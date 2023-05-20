@@ -11,6 +11,7 @@ import BlockChain from "../BlogsPage/Blogs/Blog/BlockChain/BlockChain";
 import ComputerVision from "../BlogsPage/Blogs/Blog/ComputerVision/ComputerVision";
 import SQA from "../BlogsPage/Blogs/Blog/SQA/SQA";
 import GPT from "../BlogsPage/Blogs/Blog/GPT/GPT";
+import Chatbot from "../BlogsPage/Blogs/Blog/Chatbot/Chatbot";
 import WebDevelopment from "../ServicesPage/Services/Service/WebDevelopment/WebDevelopment";
 import AIML from "../ServicesPage/Services/Service/AI&ML/AI&ML";
 import NLP from "../ServicesPage/Services/Service/NLP/NLP";
@@ -45,28 +46,32 @@ const router = createBrowserRouter([
         element: <Blogs></Blogs>,
       },
       {
-        path: "/ai-ml",
+        path: "/blogs/ai-ml",
         element: <AIAndML></AIAndML>,
       },
       {
-        path: "/erp",
+        path: "/blogs/erp",
         element: <ERP></ERP>,
       },
       {
-        path: "/blockchain",
+        path: "/blogs/blockchain",
         element: <BlockChain></BlockChain>,
       },
       {
-        path: "/computer-vision",
+        path: "/blogs/computer-vision",
         element: <ComputerVision></ComputerVision>,
       },
       {
-        path: "/sqa",
+        path: "/blogs/sqa",
         element: <SQA></SQA>,
       },
       {
-        path: "/gpt",
+        path: "/blogs/gpt",
         element: <GPT></GPT>,
+      },
+      {
+        path: "/blogs/chatbot",
+        element: <Chatbot></Chatbot>
       },
       {
         path: "/services/web-development",
