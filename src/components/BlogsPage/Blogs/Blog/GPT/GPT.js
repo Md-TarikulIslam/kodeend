@@ -17,7 +17,7 @@ import {
 } from "react-icons/fa";
 
 const GPT = () => {
-  const shareUrl = "https://unsplash.com/";
+  const shareUrl = "https://www.kodeend.com/blogs/gpt";
   return (
     <div>
       <div className="blog-card">

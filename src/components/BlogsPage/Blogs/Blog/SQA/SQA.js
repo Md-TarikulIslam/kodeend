@@ -18,7 +18,7 @@ import {
 import { Link } from "react-router-dom";
 
 const SQA = () => {
-  const shareUrl = "https://unsplash.com/";
+  const shareUrl = "https://www.kodeend.com/blogs/sqa";
   return (
     <div>
       <div className="blog-card">

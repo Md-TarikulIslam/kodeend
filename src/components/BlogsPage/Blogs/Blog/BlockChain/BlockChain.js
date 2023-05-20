@@ -17,7 +17,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const BlockChain = () => {
-  const shareUrl = "https://unsplash.com/";
+  const shareUrl = "https://www.kodeend.com/blogs/blockchain";
   return (
     <div>
       <div className="blog-card">

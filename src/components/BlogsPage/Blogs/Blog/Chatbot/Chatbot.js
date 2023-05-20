@@ -17,7 +17,7 @@ import {
 } from "react-icons/fa";
 
 const Chatbot = () => {
-  const shareUrl = "https://unsplash.com/";
+  const shareUrl = "https://www.kodeend.com/blogs/chatbot";
   return (
     <div>
       <div className="blog-card">

@@ -19,6 +19,9 @@ import Blockchain from "../ServicesPage/Services/Service/Blockchain/Blockchain";
 import ERPService from "../ServicesPage/Services/Service/ERP/ERP";
 import SEOService from "../ServicesPage/Services/Service/SEO/SEO";
 import SQAService from "../ServicesPage/Services/Service/SQA/SQA";
+import TermsAndConditions from "../Shared/Footer/Legals/TermsAndConditions/TermsAndConditions";
+import Privacy from "../Shared/Footer/Legals/Privacy/Privacy";
+import GDPR from "../Shared/Footer/Legals/GDPR/GDPR";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +43,34 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services></Services>,
+      },
+      {
+        path: "/services/web-development",
+        element: <WebDevelopment></WebDevelopment>,
+      },
+      {
+        path: "/services/ai-ml",
+        element: <AIML></AIML>,
+      },
+      {
+        path: "/services/nlp",
+        element: <NLP></NLP>,
+      },
+      {
+        path: "/services/blockchain",
+        element: <Blockchain></Blockchain>,
+      },
+      {
+        path: "/services/erp",
+        element: <ERPService></ERPService>,
+      },
+      {
+        path: "/services/seo",
+        element: <SEOService></SEOService>,
+      },
+      {
+        path: "/services/sqa",
+        element: <SQAService></SQAService>,
       },
       {
         path: "/blogs",
@@ -71,35 +102,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/blogs/chatbot",
-        element: <Chatbot></Chatbot>
+        element: <Chatbot></Chatbot>,
       },
       {
-        path: "/services/web-development",
-        element: <WebDevelopment></WebDevelopment>,
+        path: "/terms",
+        element: <TermsAndConditions></TermsAndConditions>,
       },
       {
-        path: "/services/ai-ml",
-        element: <AIML></AIML>,
+        path: "/privacy",
+        element: <Privacy></Privacy>,
       },
       {
-        path: "/services/nlp",
-        element: <NLP></NLP>,
-      },
-      {
-        path: "/services/blockchain",
-        element: <Blockchain></Blockchain>
-      },
-      {
-        path: "/services/erp",
-        element: <ERPService></ERPService>
-      },
-      {
-        path: "/services/seo",
-        element: <SEOService></SEOService>
-      },
-      {
-        path: "/services/sqa",
-        element: <SQAService></SQAService>
+        path: "/gdpr",
+        element: <GDPR></GDPR>,
       },
     ],
   },

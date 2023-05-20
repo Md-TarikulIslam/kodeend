@@ -17,7 +17,7 @@ import {
 } from "react-icons/fa";
 
 const AIAndML = () => {
-  const shareUrl = "https://unsplash.com/";
+  const shareUrl = "https://www.kodeend.com/blogs/ai-ml";
   return (
     <div>
       <div className="blog-card">

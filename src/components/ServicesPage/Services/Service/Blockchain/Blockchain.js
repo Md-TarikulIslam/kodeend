@@ -23,11 +23,9 @@ const Blockchain = () => {
   return (
     <div>
       <div>
-     
         <h1 className="service-text-2 font-bold">
-          ACCELERATE GROWTH AND INNOVATION WITH <br /> KODEEND'S BLOCKCHAIN AND BIG
-          DATA EXPERTISE
-          
+          ACCELERATE GROWTH AND INNOVATION WITH <br /> KODEEND'S BLOCKCHAIN AND
+          BIG DATA EXPERTISE
         </h1>
       </div>
 
@@ -88,7 +86,9 @@ const Blockchain = () => {
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"
       >
-        <h1 className="why-choose-text ">WHY CHOOSE OUR BLOCKCHAIN & BIG DATA SERVICES</h1>
+        <h1 className="why-choose-text ">
+          WHY CHOOSE OUR BLOCKCHAIN & BIG DATA SERVICES
+        </h1>
 
         <div className="w-[23rem] md:w-[40rem] lg:w-[50rem] mx-auto">
           <Timeline>
