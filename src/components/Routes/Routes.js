@@ -14,6 +14,10 @@ import GPT from "../BlogsPage/Blogs/Blog/GPT/GPT";
 import WebDevelopment from "../ServicesPage/Services/Service/WebDevelopment/WebDevelopment";
 import AIML from "../ServicesPage/Services/Service/AI&ML/AI&ML";
 import NLP from "../ServicesPage/Services/Service/NLP/NLP";
+import Blockchain from "../ServicesPage/Services/Service/Blockchain/Blockchain";
+import ERPService from "../ServicesPage/Services/Service/ERP/ERP";
+import SEOService from "../ServicesPage/Services/Service/SEO/SEO";
+import SQAService from "../ServicesPage/Services/Service/SQA/SQA";
 
 const router = createBrowserRouter([
   {
@@ -75,6 +79,22 @@ const router = createBrowserRouter([
       {
         path: "/services/nlp",
         element: <NLP></NLP>,
+      },
+      {
+        path: "/services/blockchain",
+        element: <Blockchain></Blockchain>
+      },
+      {
+        path: "/services/erp",
+        element: <ERPService></ERPService>
+      },
+      {
+        path: "/services/seo",
+        element: <SEOService></SEOService>
+      },
+      {
+        path: "/services/sqa",
+        element: <SQAService></SQAService>
       },
     ],
   },

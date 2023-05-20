@@ -46,3 +46,7 @@
 .font-bold {
   font-family: "GoogleSansBold";
 }
+
+.loader{
+  padding:250px !important;
+}

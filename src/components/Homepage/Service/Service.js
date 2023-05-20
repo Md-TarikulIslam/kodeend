@@ -51,7 +51,7 @@ export default function Service() {
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
-                <Button>Read More</Button>
+                <Link to={data.link}><Button>Read More</Button></Link>
               </CardFooter>
             </Card>
           </div>

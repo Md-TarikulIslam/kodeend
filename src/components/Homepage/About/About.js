@@ -4,6 +4,7 @@ import img from "../../../assets/images/about/1.jpg";
 import "./About.css";
 import { FcReading } from "react-icons/fc";
 import Contact from "../Contact/Contact";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -30,12 +31,14 @@ const About = () => {
             experience to help you achieve your goals. Contact us today to learn
             more about how we can help you take your business to the next level.
           </h1>
-          <div data-aos="fade-up" className="read-btn">
-            <button className="tracking-widest">READ MORE</button>
-            <span className="text-5xl">
-              <FcReading />
-            </span>
-          </div>
+          <Link to="/blogs">
+            <div data-aos="fade-up" className="read-btn">
+              <button className="tracking-widest">READ MORE</button>
+              <span className="text-5xl">
+                <FcReading />
+              </span>
+            </div>
+          </Link>
         </div>
       </div>
       <Contact></Contact>

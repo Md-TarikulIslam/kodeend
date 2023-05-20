@@ -2,8 +2,23 @@ import React from "react";
 import img from "../../../../../assets/images/blogs/sqa.jpg";
 import { Typography } from "@material-tailwind/react";
 
+import {
+  FacebookShareButton,
+  LinkedinShareButton,
+  RedditShareButton,
+  TwitterShareButton,
+} from "react-share";
+
+import {
+  FaFacebookSquare,
+  FaLinkedin,
+  FaTwitterSquare,
+  FaRedditSquare,
+} from "react-icons/fa";
+
 
 const SQA = () => {
+  const shareUrl = "https://unsplash.com/";
   return (
     <div>
       <div className="blog-card">
@@ -103,6 +118,25 @@ const SQA = () => {
               on our future.
             </Typography>
           </div>
+        </div>
+      </div>
+      <div>
+        <Typography className="text-justify my-5">
+          <h1 style={{marginTop:'10px'}} className="what-text">Share this blog with</h1>
+        </Typography>
+        <div className="text-center text-5xl text-indigo-500 my-8">
+          <FacebookShareButton url={shareUrl}>
+            <FaFacebookSquare />
+          </FacebookShareButton>
+          <LinkedinShareButton url={shareUrl}>
+            <FaLinkedin />
+          </LinkedinShareButton>
+          <TwitterShareButton url={shareUrl}>
+            <FaTwitterSquare />
+          </TwitterShareButton>
+          <RedditShareButton url={shareUrl}>
+            <FaRedditSquare />
+          </RedditShareButton>
         </div>
       </div>
     </div>

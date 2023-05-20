@@ -47,6 +47,7 @@ const fakedata = [
     img: img6,
     title: "SEO",
     desc: "To help companies improve their online visibility and draw in more organic visitors, Kodeend IT Solutions offers a range of SEO services.",
+    link: '/services/seo'
 
   },
   {
