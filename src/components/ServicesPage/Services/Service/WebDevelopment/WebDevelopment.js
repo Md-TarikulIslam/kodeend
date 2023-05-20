@@ -24,8 +24,8 @@ const WebDevelopment = () => {
   return (
     <div>
       <div>
-        <h1 className="main-header-text ">
-          EYE-CATCHY, USER-FRIENDLY WEBSITES WITH ROBUST WEB DEVELOPMENT
+        <h1 className="service-text-2 font-bold">
+          EYE-CATCHY, USER-FRIENDLY WEBSITES WITH ROBUST <br /> WEB DEVELOPMENT
           SERVICES.
         </h1>
       </div>
@@ -36,7 +36,7 @@ const WebDevelopment = () => {
             <img className="service-image" src={img} alt="" />
           </div>
           <div className="single-service-text">
-            For creating appealing and user-friendly websites, Kodeend IT
+            For creating appealing and user-friendly websites, KodeEnd IT
             Solutions provides the best full-stack web development services. Our
             all-encompassing strategy guarantees a smooth user experience and
             outstanding performance. Count on us to make your online presence

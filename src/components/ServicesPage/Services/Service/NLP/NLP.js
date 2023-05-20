@@ -23,8 +23,8 @@ const NLP = () => {
   return (
     <div>
       <div>
-        <h1 style={{ width: "1000px" }} className="main-header-text ">
-          ADOPT THE NATURAL LANGUAGE PROCESSING TECHNIQUES FROM KODEEND IT
+        <h1 className="service-text-2 font-bold">
+          ADOPT THE NATURAL LANGUAGE PROCESSING TECHNIQUES FROM <br /> KODEEND IT
           SOLUTIONS
         </h1>
       </div>

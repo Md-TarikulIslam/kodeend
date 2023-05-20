@@ -23,7 +23,7 @@ const SEOService = () => {
   return (
     <div>
       <div>
-        <h1 className="main-header-text ">
+        <h1 className="service-text-2 font-bold">
           ENHANCE YOUR ONLINE VISIBILITY WITH PROFESSIONAL SEO SERVICES
         </h1>
       </div>

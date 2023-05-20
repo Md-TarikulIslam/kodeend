@@ -19,7 +19,7 @@ const About = () => {
           <h1 className="who-text">Who we are?</h1>
           <h1 className="service-text font-bold">About us</h1>
           <h1 className="lg:text-justify text-left mt-10 text-lg">
-            At kodeEnd IT Solutions, we specialize in utilizing cutting-edge
+            At KodeEnd IT Solutions, we specialize in utilizing cutting-edge
             technologies such as computer vision, artificial intelligence, and
             web development to provide innovative solutions for our clients. Our
             team of experts are dedicated to delivering high-quality services

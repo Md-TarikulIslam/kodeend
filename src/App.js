@@ -17,6 +17,7 @@ function App() {
   useEffect(() => {
     Aos.init();
   }, []);
+
   return (
     <div className="font-regular">
       {loading ? (
@@ -26,10 +27,9 @@ function App() {
           width="120"
           ariaLabel="vortex-loading"
           wrapperClass="vortex-wrapper"
-          wrapperStyle={{margin:'320px auto'}}
+          wrapperStyle={{ margin: "320px auto" }}
           colors={["red", "green", "blue", "yellow", "orange", "purple"]}
           loading={loading}
-         
         />
       ) : (
         <RouterProvider router={router}></RouterProvider>

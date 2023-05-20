@@ -23,8 +23,8 @@ const AIML = () => {
   return (
     <div>
       <div>
-        <h1 className="main-header-text ">
-          TRANSFORM YOUR BUSINESS WITH AI/MLSERVICES FROM KODEEND IT SOLUTIONS
+        <h1 className="service-text-2 font-bold">
+          TRANSFORM YOUR BUSINESS WITH AI/MLSERVICES FROM <br /> KODEEND IT SOLUTIONS
         </h1>
       </div>
 
@@ -86,9 +86,7 @@ const AIML = () => {
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"
       >
-        <h1 className="why-choose-text ">
-          WHY CHOOSE OUR AI AND ML SERVICES
-        </h1>
+        <h1 className="why-choose-text ">WHY CHOOSE OUR AI AND ML SERVICES</h1>
 
         <div className="w-[23rem] md:w-[40rem] lg:w-[50rem] mx-auto">
           <Timeline>

@@ -49,13 +49,13 @@ const fakedata = [
     id: 7,
     image: img7,
     title: "Data Governance",
-    desc: "Kodeend may assist enterprises in developing data management rules and processes, such as data quality, metadata management, and compliance.",
+    desc: "KodeEnd may assist enterprises in developing data management rules and processes, such as data quality, metadata management, and compliance.",
   },
   {
     id: 8,
     image: img8,
     title: "Cloud-based Services",
-    desc: "Kodeend can provide cloud-based solutions that allow organizations to access their data and blockchain technologies from anywhere, at any time.",
+    desc: "KodeEnd can provide cloud-based solutions that allow organizations to access their data and blockchain technologies from anywhere, at any time.",
   },
 
 ];

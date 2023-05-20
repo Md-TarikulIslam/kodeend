@@ -32,7 +32,7 @@ const ERP = () => {
               variant="h4"
               className="mb-2 font-bold lg:text-3xl  text-blue-500"
             >
-              Increase Efficiency & Boost Productivity with Kodeend ERP Software
+              Increase Efficiency & Boost Productivity with KodeEnd ERP Software
             </Typography>
             <Typography className="text-justify font-regular  my-5">
               Enterprise resource planning, or ERP, is a robust software program

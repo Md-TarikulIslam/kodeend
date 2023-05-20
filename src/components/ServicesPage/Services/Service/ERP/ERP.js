@@ -23,9 +23,9 @@ const ERPService = () => {
   return (
     <div>
       <div>
-        <h1 style={{ width: "1000px" }} className="main-header-text ">
-          ENHANCE THE EFFECTIVENESS OF YOUR BUSINESS WITH KODEEND'S EXPERT ERP
-          SOLUTIONS
+        <h1 className="service-text-2 font-bold">
+          ENHANCE THE EFFECTIVENESS OF YOUR BUSINESS WITH <br /> KODEEND'S
+          EXPERT ERP SOLUTIONS
         </h1>
       </div>
 
@@ -36,7 +36,7 @@ const ERPService = () => {
           </div>
           <div className="single-service-text">
             An outstanding ERP (Enterprise Resource Planning) solution provider,
-            Kodeend IT Solutions is committed to assisting companies of all
+            KodeEnd IT Solutions is committed to assisting companies of all
             sizes in streamlining their operations and boosting production. With
             our modern ERP solutions, any business can easily accomplish its
             strategic goals.

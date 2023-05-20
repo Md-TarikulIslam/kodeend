@@ -31,16 +31,16 @@ const Chatbot = () => {
               variant="h4"
               className="mb-2 font-bold lg:text-3xl  text-blue-500"
             >
-              Kodeend IT Solutions Redefining Chatbot Development
+              KodeEnd IT Solutions Redefining Chatbot Development
             </Typography>
             <Typography className="text-justify font-regular my-5">
               Chatbots have become powerful tools for businesses to improve
               consumer relations and streamline operations in today's quickly
               changing technology landscape. By utilizing the capabilities of
-              artificial intelligence (AI) and machine learning (ML), Kodeend IT
+              artificial intelligence (AI) and machine learning (ML), KodeEnd IT
               Solutions has been at the forefront of chatbot development,
               producing sophisticated and extremely effective chatbot solutions.
-              Kodeend IT Solutions is redefining chatbot development by
+              KodeEnd IT Solutions is redefining chatbot development by
               utilizing AI and ML, bringing a wealth of advantages and
               cutting-edge features to companies in a variety of industries.
             </Typography>
@@ -87,7 +87,7 @@ const Chatbot = () => {
               variant="h4"
               className="mb-2 font-bold lg:text-xl lg:mb-5 text-black"
             >
-              AI-powered chatbots from Kodeend IT Solutions
+              AI-powered chatbots from KodeEnd IT Solutions
             </Typography>
             <Typography className="text-justify font-regular my-5">
               <span className="text-blue-700 text-xl">
@@ -95,7 +95,7 @@ const Chatbot = () => {
                 Customer experience:
               </span>{" "}
               <br /> Personalized and smooth customer experiences are what
-              Kodeend IT Solutions' chatbots are built to offer. These chatbots
+              KodeEnd IT Solutions' chatbots are built to offer. These chatbots
               can deliver personalized recommendations, quick responses to
               questions, and round-the-clock assistance by evaluating user data
               and preferences, which raises customer satisfaction. <br /> <br />
@@ -103,7 +103,7 @@ const Chatbot = () => {
                 {" "}
                 Enhanced Efficiency:
               </span>
-              <br /> Kodeend IT Solutions' chatbots may continuously improve
+              <br /> KodeEnd IT Solutions' chatbots may continuously improve
               their performance by learning from previous conversations because
               of the inclusion of AI and ML. They may respond to a variety of
               client inquiries, automate time-consuming operations, and even
@@ -114,7 +114,7 @@ const Chatbot = () => {
                 {" "}
                 Real-time Data Insights:
               </span>
-              <br /> The chatbots developed by Kodeend IT Solutions use AI
+              <br /> The chatbots developed by KodeEnd IT Solutions use AI
               algorithms to gather and analyze data instantly. These invaluable
               insights can be utilized to learn more about client behavior,
               preferences, and pain spots, allowing organizations to modify
@@ -127,14 +127,14 @@ const Chatbot = () => {
               variant="h4"
               className="mb-2 font-bold lg:text-xl lg:mb-5 text-black"
             >
-              Features of the Chatbots from Kodeend IT Solutions
+              Features of the Chatbots from KodeEnd IT Solutions
             </Typography>
             <Typography className="text-justify font-regular my-5">
               <span className="text-blue-700 text-xl">
                 {" "}
                 Natural Language Processing (NLP):
               </span>{" "}
-              <br /> The extensive NLP capabilities of Kodeend IT Solutions'
+              <br /> The extensive NLP capabilities of KodeEnd IT Solutions'
               chatbots enable them to comprehend and interpret customer
               inquiries in a conversational manner. It is simpler for clients to
               connect with the chatbot because of this functionality, which
@@ -143,7 +143,7 @@ const Chatbot = () => {
                 {" "}
                 Contextual Understanding:
               </span>{" "}
-              <br /> Kodeend IT Solutions' chatbots are capable of contextual
+              <br /> KodeEnd IT Solutions' chatbots are capable of contextual
               understanding due to the power of AI and ML. They are able to
               recall and remember prior discussions, guaranteeing that each user
               has a consistent and unique experience. By providing precise and
@@ -153,13 +153,13 @@ const Chatbot = () => {
                 {" "}
                 Sentiment Analysis:
               </span>{" "}
-              <br /> The chatbots created by Kodeend IT Solutions use sentiment
+              <br /> The chatbots created by KodeEnd IT Solutions use sentiment
               analysis algorithms to determine the emotions and sentiments
               contained in user communications. As a result, the chatbot can
               respond sympathetically and properly, adding a more human touch to
               encounters and fostering closer ties with customers. <br /> <br />
               <span className="text-blue-700 text-xl"> Integration:</span>{" "}
-              <br /> Chatbots from Kodeend IT Solutions readily interface with
+              <br /> Chatbots from KodeEnd IT Solutions readily interface with
               existing corporate systems, including helpdesk software,
               e-commerce websites, and customer relationship management (CRM)
               solutions. As a result, a streamlined and effective workflow is
@@ -174,7 +174,7 @@ const Chatbot = () => {
               shifting client preferences, polish their responses, and deliver
               more specific and relevant data by using ML algorithms, which
               improve the user experience. <br /> <br />
-              Kodeend IT Solutions' AI-powered chatbots provide a game-changing
+              KodeEnd IT Solutions' AI-powered chatbots provide a game-changing
               answer as organizations struggle to fulfill the escalating client
               demands in the digital world. These chatbots reinvent how
               companies connect with their consumers by utilizing the power of
@@ -191,11 +191,11 @@ const Chatbot = () => {
               Summary
             </Typography>
             <Typography className="text-justify font-regular my-5">
-              The chatbots from Kodeend IT Solutions give businesses the tools
+              The chatbots from KodeEnd IT Solutions give businesses the tools
               they need to stay ahead of the competition and provide excellent
               customer service. These characteristics include natural language
               processing (NLP), contextual understanding, sentiment analysis,
-              seamless integration, and continuous learning. Kodeend IT
+              seamless integration, and continuous learning. KodeEnd IT
               Solutions is pioneering chatbot creation and redefining the future
               of client interaction by embracing the power of AI and ML.
             </Typography>

@@ -23,8 +23,8 @@ const SQAService = () => {
   return (
     <div>
       <div>
-        <h1 className="main-header-text ">
-          SQA SERVICES OF THE HIGHEST QUALITY FOR OUTSTANDING SOFTWARE PRODUCTS
+        <h1 className="service-text-2 font-bold">
+          SQA SERVICES OF THE HIGHEST QUALITY FOR OUTSTANDING <br /> SOFTWARE PRODUCTS
         </h1>
       </div>
 
@@ -38,7 +38,7 @@ const SQAService = () => {
             development of software that makes sure that software applications
             adhere to the intended standards and specifications for quality. For
             companies aiming to improve the caliber and dependability of their
-            software products, Kodeend IT Solutions is the best option to go
+            software products, KodeEnd IT Solutions is the best option to go
             with.
           </div>
         </div>

@@ -23,9 +23,11 @@ const Blockchain = () => {
   return (
     <div>
       <div>
-        <h1 style={{ width: "1100px" }} className="main-header-text ">
-          ACCELERATE GROWTH AND INNOVATION WITH KODEEND'S BLOCKCHAIN AND BIG
+     
+        <h1 className="service-text-2 font-bold">
+          ACCELERATE GROWTH AND INNOVATION WITH <br /> KODEEND'S BLOCKCHAIN AND BIG
           DATA EXPERTISE
+          
         </h1>
       </div>
 
@@ -35,10 +37,10 @@ const Blockchain = () => {
             <img className="service-image" src={img} alt="" />
           </div>
           <div className="single-service-text">
-            Kodeend uses blockchain technology to assist your company in
+            KodeEnd uses blockchain technology to assist your company in
             implementing decentralized solutions that decrease costs, enhance
             efficiency, and boost trust between partners. Apart from blockchain,
-            Kodeend's big data may assist your company in analyzing vast volumes
+            KodeEnd's big data may assist your company in analyzing vast volumes
             of data in order to unearth useful insights and make educated
             choices.
           </div>
