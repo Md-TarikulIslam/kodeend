@@ -1,13 +1,39 @@
 import { Input, Textarea } from "@material-tailwind/react";
-import React from "react";
+import React, { useRef } from "react";
 import { FcFeedback } from "react-icons/fc";
-import './QuoteForm.css'
+import "./QuoteForm.css";
+import emailjs from "@emailjs/browser";
 const QuoteForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_f2xaw1r",
+        "template_5cgubu4",
+        form.current,
+        "3e8iCSmJS5WIk0yqj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    alert("Send Successfully! Kindly Wait For Reply");
+    e.target.reset();
+  };
   return (
     <div data-aos="fade-up">
-      <h1 style={{marginTop:"70px"}} className="quote-text">REQUEST A QUOTE</h1>
+      <h1 style={{ marginTop: "70px" }} className="quote-text">
+        REQUEST A QUOTE
+      </h1>
       <div>
-        <form className="form-padding">
+        <form ref={form} onSubmit={sendEmail} className="form-padding">
           <Input
             data-aos="fade-up"
             className="input-field"

@@ -48,7 +48,7 @@ const Blockchain = () => {
       <div>
         <h1 className="sub-header-text ">THE FEATURES WE PROVIDE</h1>
       </div>
-      <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-56 lg:pr-36 mx-auto  items-center justify-evenly ">
+      <div className="grid grid-cols-1 md:pl-0 md:grid-cols-2  pl-1 lg:grid-cols-2 lg:pl-20 xl:grid-cols-3 xl:pl-6  2xl:pl-36  lg:pr-0 mx-auto  items-center justify-evenly ">
         {allData.map((data) => (
           <div
             data-aos="fade-up"
