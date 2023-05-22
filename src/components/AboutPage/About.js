@@ -2,7 +2,7 @@
 import React from "react";
 import img from "../../../src/assets/images/about/1.jpg";
 import { FcReading } from "react-icons/fc";
-
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -30,14 +30,16 @@ const About = () => {
             more about how we can help you take your business to the next level.
           </h1>
           <div data-aos="fade-up" className="read-btn">
-            <button className="tracking-widest">READ MORE</button>
+            <Link to="/blogs">
+              {" "}
+              <button className="tracking-widest">READ MORE</button>
+            </Link>
             <span className="text-5xl">
               <FcReading />
             </span>
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

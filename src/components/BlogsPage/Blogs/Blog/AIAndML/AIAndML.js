@@ -34,7 +34,7 @@ const AIAndML = () => {
               The Age of Technology Has Arrived: AI and Machine Learning Are the
               Future
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               We live in a technological age where innovation and development
               are the norm. Artificial intelligence (AI) and machine learning
               have emerged in recent years, swiftly revolutionizing the way we
@@ -52,7 +52,7 @@ const AIAndML = () => {
             >
               The Advancement of AI and Machine Learning
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               Artificial intelligence and machine learning are not new notions.
               For decades, researchers have been working on these technologies.
               Recent technical breakthroughs, however, have resulted in
@@ -76,7 +76,7 @@ const AIAndML = () => {
             >
               The Future & Difficulties
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               AI and machine learning have a bright future, and the
               possibilities for these technologies are limitless. As technology
               continues to improve, we should expect to see more advanced AI
@@ -108,7 +108,7 @@ const AIAndML = () => {
             >
               Applications of AI & ML
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               AI and machine learning are being employed in a wide range of
               applications and sectors. These are utilized in healthcare for
               illness diagnosis, treatment, and research. AI systems, for
@@ -135,7 +135,7 @@ const AIAndML = () => {
             >
               Summary
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               The evolving technologies are reshaping the world as we know it.
               These have the potential to transform a variety of sectors and
               result in a more productive and efficient workforce. Yet, in order
@@ -149,7 +149,7 @@ const AIAndML = () => {
         </div>
       </div>
       <div>
-        <Typography className="text-justify font-regular  my-5">
+        <Typography className="text-left font-regular  my-5">
           <h1 style={{ marginTop: "10px" }} className="what-text">
             Share this blog with
           </h1>

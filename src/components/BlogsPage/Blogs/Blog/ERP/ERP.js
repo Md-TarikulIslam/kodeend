@@ -34,7 +34,7 @@ const ERP = () => {
             >
               Increase Efficiency & Boost Productivity with KodeEnd ERP Software
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               Enterprise resource planning, or ERP, is a robust software program
               created to bring all parts of a company together in one spot. It
               enables businesses to organize their processes and take
@@ -59,7 +59,7 @@ const ERP = () => {
             >
               The Basic knowledge of ERP
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               An ERP system's primary goal is to manage and automate a business'
               daily activities. This includes everything from supply chain
               management and customer relationship management to inventory
@@ -78,7 +78,7 @@ const ERP = () => {
             >
               The benefits of ERP in business are as follows
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               <span className="text-xl"> Increase Performance </span> <br />
               Real-time insights into a company's performance are one of the
               main advantages of ERP software. Businesses may see inefficiencies
@@ -106,7 +106,7 @@ const ERP = () => {
             >
               KodeEnd Providing Easy Enterprise Solutions
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               <span className="text-red-300 font-bold text-2xl">
                 KodeEnd IT Solutions
               </span>{" "}
@@ -134,7 +134,7 @@ const ERP = () => {
             >
               Summary
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               If you wish to expand your business, an ERP system from KodeEnd is
               exactly what you need. KodeEnd's strong abilities and flexible
               solutions can help you streamline your operations and accomplish
@@ -149,7 +149,7 @@ const ERP = () => {
         </div>
       </div>
       <div>
-        <Typography className="text-justify font-regular  my-5">
+        <Typography className="text-left font-regular  my-5">
           <h1 style={{ marginTop: "10px" }} className="what-text">
             Share this blog with
           </h1>

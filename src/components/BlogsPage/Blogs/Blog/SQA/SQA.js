@@ -35,7 +35,7 @@ const SQA = () => {
               Software Quality Assurance with KodeEnd IT Solutions: A Trusted
               SQA Partner
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               SQA, or software quality assurance, is a crucial component of
               software development that makes sure software programs are
               error-free and match client needs. It entails using a methodical
@@ -53,7 +53,7 @@ const SQA = () => {
             >
               The Basic Knowledge of SQA
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               Leading SQA service provider KodeEnd IT Solutions provides a full
               range of solutions to assist companies in creating and maintaining
               high-quality software applications. The business employs a group
@@ -75,7 +75,7 @@ const SQA = () => {
             >
               The Application and process
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               SQA involves assessing the functionality of the software
               application to make sure that it complies with client
               requirements. Functional testing is a crucial part of this
@@ -120,7 +120,7 @@ const SQA = () => {
             >
               Summary
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               <span className="text-red-300 text-xl">
                 KodeEnd IT Solutions{" "}
               </span>
@@ -139,7 +139,7 @@ const SQA = () => {
         </div>
       </div>
       <div>
-        <Typography className="text-justify font-regular my-5">
+        <Typography className="text-left font-regular my-5">
           <h1 style={{ marginTop: "10px" }} className="what-text">
             Share this blog with
           </h1>

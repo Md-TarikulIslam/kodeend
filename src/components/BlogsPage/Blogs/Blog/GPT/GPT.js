@@ -33,7 +33,7 @@ const GPT = () => {
             >
               KodeEnd GPT fine-tuning services to streamline any business
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               Managing client demands and queries may get more difficult as
               organizations develop and flourish. You realize the value of
               offering excellent customer service as a business owner or
@@ -56,7 +56,7 @@ const GPT = () => {
             >
               The basic knowledge of GPT optimization
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               One of the most popular uses for GPT optimization is chatbots.
               They enable companies to have conversational interactions with
               clients and offer prompt support and help. Customers may interact
@@ -92,7 +92,7 @@ const GPT = () => {
             >
               KodeEnd GPT fine-tuning services
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               We are capable of developing chat bots, question-and-answer
               systems, and expert models that will streamline your company's
               processes and deliver excellent customer support. At KodeEnd IT
@@ -117,7 +117,7 @@ const GPT = () => {
             >
               Summary
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               We provide a variety of additional AI services, such as natural
               language processing (NLP), computer vision, and machine learning,
               in addition to GPT fine-tuning.
@@ -128,7 +128,7 @@ const GPT = () => {
         </div>
       </div>
       <div>
-        <Typography className="text-justify font-regular my-5">
+        <Typography className="text-left font-regular my-5">
           <h1 style={{ marginTop: "10px" }} className="what-text">
             Share this blog with
           </h1>

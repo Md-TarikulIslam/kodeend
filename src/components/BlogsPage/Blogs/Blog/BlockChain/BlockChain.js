@@ -34,7 +34,7 @@ const BlockChain = () => {
               Blockchain and Big Data: Stay Ahead of the Curve with KodeEnd IT
               Solutions
             </Typography>
-            <Typography className="text-justify my-5 font-regular">
+            <Typography className="text-left my-5 font-regular">
               Blockchain is the technology behind cryptocurrencies such as
               bitcoin and Ethereum. On the other hand, big data is a more
               advanced data science notion that involves a larger dataset with
@@ -54,7 +54,7 @@ const BlockChain = () => {
             >
               The Basic knowledge of Blockchain and Big Data
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               To be competitive in the digital era, businesses and organizations
               must constantly innovate and adapt. Blockchain and big data are
               two of the most revolutionary technological developments in recent
@@ -73,7 +73,7 @@ const BlockChain = () => {
             >
               The pioneer in blockchain and big data services
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               KodeEnd offers a variety of blockchain services, including
               training, consultancy, and development. The team of professionals
               has expertise in creating specialized blockchain solutions that
@@ -96,7 +96,7 @@ const BlockChain = () => {
             >
               Benefits
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               Businesses may gain a lot from blockchain technology, including
               improved security, transparency, and productivity. Businesses can
               use blockchain to increase accountability and transparency while
@@ -123,7 +123,7 @@ const BlockChain = () => {
             >
               Summary
             </Typography>
-            <Typography className="text-justify font-regular  my-5">
+            <Typography className="text-left font-regular  my-5">
               Big data and blockchain are two technologies that might completely
               alter how organizations run. KodeEnd IT Solutions offers companies
               and organizations cutting-edge solutions to their most pressing
@@ -141,7 +141,7 @@ const BlockChain = () => {
         </div>
       </div>
       <div>
-        <Typography className="text-justify font-regular  my-5">
+        <Typography className="text-left font-regular  my-5">
           <h1 style={{ marginTop: "10px" }} className="what-text">
             Share this blog with
           </h1>

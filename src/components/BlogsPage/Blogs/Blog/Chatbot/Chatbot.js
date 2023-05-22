@@ -33,7 +33,7 @@ const Chatbot = () => {
             >
               KodeEnd IT Solutions Redefining Chatbot Development
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               Chatbots have become powerful tools for businesses to improve
               consumer relations and streamline operations in today's quickly
               changing technology landscape. By utilizing the capabilities of
@@ -53,7 +53,7 @@ const Chatbot = () => {
             >
               The basic knowledge of GPT optimization
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               One of the most popular uses for GPT optimization is chatbots.
               They enable companies to have conversational interactions with
               clients and offer prompt support and help. Customers may interact
@@ -89,7 +89,7 @@ const Chatbot = () => {
             >
               AI-powered chatbots from KodeEnd IT Solutions
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               <span className="text-blue-700 text-xl">
                 {" "}
                 Customer experience:
@@ -129,7 +129,7 @@ const Chatbot = () => {
             >
               Features of the Chatbots from KodeEnd IT Solutions
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               <span className="text-blue-700 text-xl">
                 {" "}
                 Natural Language Processing (NLP):
@@ -190,7 +190,7 @@ const Chatbot = () => {
             >
               Summary
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               The chatbots from KodeEnd IT Solutions give businesses the tools
               they need to stay ahead of the competition and provide excellent
               customer service. These characteristics include natural language
@@ -203,7 +203,7 @@ const Chatbot = () => {
         </div>
       </div>
       <div>
-        <Typography className="text-justify font-regular my-5">
+        <Typography className="text-left font-regular my-5">
           <h1 style={{ marginTop: "10px" }} className="what-text">
             Share this blog with
           </h1>

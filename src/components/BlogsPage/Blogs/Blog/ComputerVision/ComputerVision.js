@@ -34,7 +34,7 @@ const ComputerVision = () => {
             >
               Explore the Revolutionary World of Computer Vision
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               Computer vision is a fast expanding technology in the field of
               artificial intelligence that has the potential to change many
               industries. Computer vision enables robotic systems to read and
@@ -51,7 +51,7 @@ const ComputerVision = () => {
             >
               The Basic knowledge of Computer Vision
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               It is a branch of artificial intelligence that enables computers
               to analyze and comprehend visual input from their surroundings. It
               includes photographs, movies, and even 3D models. The objective of
@@ -72,7 +72,7 @@ const ComputerVision = () => {
               it into its component pieces. This procedure consists of numerous
               steps:
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               <span className="text-xl text-blue-700">
                 Picture Acquisition:
               </span>{" "}
@@ -107,7 +107,7 @@ const ComputerVision = () => {
             >
               Applications & Benefits of Computer Vision
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               Computer vision has several uses in a variety of sectors. Here are
               a couple of examples: <br /> <br />
               <span className="text-xl text-blue-700">
@@ -160,7 +160,7 @@ const ComputerVision = () => {
             >
               Summary
             </Typography>
-            <Typography className="text-justify font-regular my-5">
+            <Typography className="text-left font-regular my-5">
               <span className="text-red-300 text-2xl">
                 {" "}
                 KodeEnd IT Solutions
@@ -179,7 +179,7 @@ const ComputerVision = () => {
         </div>
       </div>
       <div>
-        <Typography className="text-justify font-regular my-5">
+        <Typography className="text-left font-regular my-5">
           <h1 style={{ marginTop: "10px" }} className="what-text">
             Share this blog with
           </h1>
