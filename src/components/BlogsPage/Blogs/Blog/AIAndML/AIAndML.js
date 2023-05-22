@@ -16,9 +16,12 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 
+
 const AIAndML = () => {
   const shareUrl = "https://www.kodeend.com/blogs/ai-ml";
+
   return (
+    
     <div>
       <div className="blog-card">
         <div>
@@ -167,7 +170,9 @@ const AIAndML = () => {
           <RedditShareButton url={shareUrl}>
             <FaRedditSquare />
           </RedditShareButton>
-          <div></div>
+          <div>
+            
+          </div>
         </div>
       </div>
     </div>
