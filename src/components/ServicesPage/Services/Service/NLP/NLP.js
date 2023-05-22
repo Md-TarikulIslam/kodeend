@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../../../assets/images/services/service/nlp/nlp-main.webp";
+import img from "../../../../../assets/images/services/service/nlp/main.jpg";
 import allData from "./fakedata";
 import {
   Card,

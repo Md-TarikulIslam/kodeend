@@ -3,7 +3,7 @@ import img2 from "../../../../../assets/images/services/service/ai-ml/model-trai
 import img3 from "../../../../../assets/images/services/service/nlp/img3.png";
 import img4 from "../../../../../assets/images/services/service/nlp/img4.png";
 import img5 from "../../../../../assets/images/services/service/nlp/img5.png";
-import img6 from "../../../../../assets/images/services/service/nlp/img6.jpeg";
+import img6 from "../../../../../assets/images/services/service/nlp/img6.png";
 import img7 from "../../../../../assets/images/services/service/nlp/img7.jpg";
 
 const fakedata = [

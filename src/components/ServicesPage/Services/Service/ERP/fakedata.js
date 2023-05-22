@@ -1,6 +1,6 @@
 import img1 from "../../../../../assets/images/services/service/erp/1.png";
 import img2 from "../../../../../assets/images/services/service/erp/2.jpg";
-import img3 from "../../../../../assets/images/services/service/erp/3.jpeg";
+import img3 from "../../../../../assets/images/services/service/erp/3.jpg";
 import img4 from "../../../../../assets/images/services/service/erp/4.jpg";
 import img5 from "../../../../../assets/images/services/service/erp/5.jpg";
 

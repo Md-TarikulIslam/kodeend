@@ -5,8 +5,8 @@ import img4 from "../../../../../assets/images/services/service/web-dev/custom-w
 import img5 from "../../../../../assets/images/services/service/web-dev/cms.png";
 import img6 from "../../../../../assets/images/services/service/web-dev/ecom.jpg";
 import img7 from "../../../../../assets/images/services/service/web-dev/content.jpg";
-import img8 from "../../../../../assets/images/services/service/web-dev/graphics.webp";
-import img9 from "../../../../../assets/images/services/service/web-dev/security.jpeg";
+import img8 from "../../../../../assets/images/services/service/web-dev/graphics.jpg";
+import img9 from "../../../../../assets/images/services/service/web-dev/security.jpg";
 
 
 

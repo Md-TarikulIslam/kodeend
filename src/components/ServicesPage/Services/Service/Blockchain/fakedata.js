@@ -3,7 +3,7 @@ import img2 from "../../../../../assets/images/services/service/blockchain/2.jpg
 import img3 from "../../../../../assets/images/services/service/blockchain/3.jpg";
 import img4 from "../../../../../assets/images/services/service/blockchain/4.jpg";
 import img5 from "../../../../../assets/images/services/service/blockchain/5.png";
-import img6 from "../../../../../assets/images/services/service/web-dev/security.jpeg";
+import img6 from "../../../../../assets/images/services/service/web-dev/security.jpg";
 import img7 from "../../../../../assets/images/services/service/ai-ml/performance.jpg";
 import img8 from "../../../../../assets/images/services/service/blockchain/9.jpg";
 

@@ -1,11 +1,11 @@
 import img1 from "../../../../../assets/images/services/service/ai-ml/campaign-creators-pypeCEaJeZY-unsplash.jpg";
 import img2 from "../../../../../assets/images/services/service/ai-ml/model-train.jpg";
 import img3 from "../../../../../assets/images/services/service/web-dev/back.jpg";
-import img4 from "../../../../../assets/images/services/service/ai-ml/algorithm.jpeg";
+import img4 from "../../../../../assets/images/services/service/ai-ml/algorithm.jpg";
 import img5 from "../../../../../assets/images/services/service/ai-ml/integration2.png";
 import img6 from "../../../../../assets/images/services/service/ai-ml/performance.jpg";
 import img7 from "../../../../../assets/images/services/service/ai-ml/interpretability.jpg";
-import img8 from "../../../../../assets/images/services/service/web-dev/security.jpeg";
+import img8 from "../../../../../assets/images/services/service/web-dev/security.jpg";
 import img9 from "../../../../../assets/images/services/service/ai-ml/scale.jpg";
 
 const fakedata = [

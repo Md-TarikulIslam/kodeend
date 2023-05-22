@@ -1,13 +1,35 @@
 import { Input, Textarea } from "@material-tailwind/react";
-import React from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
 import { FcFeedback } from "react-icons/fc";
+import emailjs from "@emailjs/browser";
 const Contact = () => {
+  const form = useRef();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_87dwq5q",
+        "template_m5qp3pl",
+        form.current,
+        "3e8iCSmJS5WIk0yqj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    alert("Send Successfully! Kindly Wait For Reply");
+    e.target.reset();
+  };
   return (
     <div data-aos="fade-up">
       <h1 className="who-text">Contact us</h1>
       <div>
-        <form className="form-padding">
+        <form ref={form} onSubmit={handleSubmit} className="form-padding">
           <Input
             data-aos="fade-up"
             className="input-field"
