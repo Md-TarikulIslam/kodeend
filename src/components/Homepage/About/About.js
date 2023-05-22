@@ -20,7 +20,7 @@ const About = () => {
         <div data-aos="fade-left">
           <h1 className="who-text">Who we are?</h1>
           <h1 className="service-text font-bold">About us</h1>
-          <h1 className="lg:text-justify text-left mt-10 text-lg">
+          <h1 className="text-left mt-10 text-lg">
             At KodeEnd IT Solutions, we specialize in utilizing cutting-edge
             technologies such as computer vision, artificial intelligence, and
             web development to provide innovative solutions for our clients. Our
