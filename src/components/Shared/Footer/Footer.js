@@ -40,8 +40,8 @@ const Footer = () => (
             {" "}
             <MdEmail />
           </p>
-          <a href="mailto: info@KodeEnd.com" className="text">
-            info@KodeEnd.com
+          <a href="mailto: info@kodeend.com" className="text">
+            info@kodeend.com
           </a>
         </div>
       </div>
@@ -67,7 +67,7 @@ const Footer = () => (
           <a
             className="text-4xl"
             target="_blank"
-            href="https://www.facebook.com/KodeEnd"
+            href="https://www.facebook.com/Kodeend"
           >
             <FaFacebookSquare />
           </a>
