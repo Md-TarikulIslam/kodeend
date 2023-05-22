@@ -34,20 +34,21 @@
 }
 
 .single-service-text {
-    text-align: justify;
+    text-align: left;
     width: 500px;
     font-size: 18px;
     height: 500px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    padding: 20px;
+    padding:  150px 20px;
     background-color: #f3f6fc;
+   
 
 }
 
 .single-service-text:hover {
     background-color: #c2e7ff;
-    font-size: 22px;
+  
 }
 
 /* Sub header  */
