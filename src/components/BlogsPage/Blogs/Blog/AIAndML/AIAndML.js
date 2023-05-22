@@ -155,9 +155,8 @@ const AIAndML = () => {
           </h1>
         </Typography>
         <div className="text-center text-5xl text-indigo-500 my-8">
-          <FacebookShareButton url={shareUrl}>
+          <FacebookShareButton url={shareUrl} quote="Hello">
             <FaFacebookSquare />
-            <meta property="og:image" content="../../../../../assets/images/blogs/ai-ml.jpg"/>
           </FacebookShareButton>
           <LinkedinShareButton url={shareUrl}>
             <FaLinkedin />
@@ -168,6 +167,7 @@ const AIAndML = () => {
           <RedditShareButton url={shareUrl}>
             <FaRedditSquare />
           </RedditShareButton>
+          <div></div>
         </div>
       </div>
     </div>

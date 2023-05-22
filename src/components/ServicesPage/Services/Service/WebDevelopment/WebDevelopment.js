@@ -99,7 +99,7 @@ const WebDevelopment = () => {
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="1000"
                 >
-                  <TimelineItem className="h-28 ">
+                  <TimelineItem className="h-44 ">
                     <TimelineConnector className="!w-[78px] " />
                     <TimelineHeader className="relative rounded-xl card-height border border-blue-gray-50 bg-white py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5">
                       <TimelineIcon

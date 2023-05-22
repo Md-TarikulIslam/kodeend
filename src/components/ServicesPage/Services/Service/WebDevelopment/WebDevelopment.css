@@ -108,7 +108,7 @@
         height: 350px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 30px;
-        text-align: left;
+        padding: 20px;
     }
 
     .single-service-card:hover {
@@ -131,7 +131,7 @@
     }
 
     .card-height {
-        height: 100px;
+        height: 150px;
     }
 }
 
@@ -157,6 +157,7 @@
         border-top-right-radius: 0px;
         border-bottom-left-radius: 30px;
         text-align: left;
+        padding: 20px;
     }
 
     .single-service-card:hover {
