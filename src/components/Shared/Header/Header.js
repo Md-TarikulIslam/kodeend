@@ -8,7 +8,7 @@ import {
   Card,
 } from "@material-tailwind/react";
 
-import logo from "../../../assets/images/logo/logo.webp";
+import logo from "../../../assets/images/logo/logo.jpg";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
