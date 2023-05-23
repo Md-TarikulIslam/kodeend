@@ -15,7 +15,7 @@ import {
   FaTwitterSquare,
   FaRedditSquare,
 } from "react-icons/fa";
-
+import MetaTags from 'react-meta-tags';
 
 const AIAndML = () => {
   const shareUrl = "https://www.kodeend.com/blogs/ai-ml";
@@ -23,6 +23,13 @@ const AIAndML = () => {
   return (
     
     <div>
+        <MetaTags>
+            <title>Blog - AI and ML</title>
+            <meta name="og:description" content="All desc are good" />
+            <meta property="og:title" content="AI and ML are the future" />
+            <meta property="og:image" content="../../../../../assets/images/blogs/ai-ml - Copy (Custom).jpg" />
+            <meta name="twitter:card" content="All desc are good" />
+          </MetaTags>
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />
