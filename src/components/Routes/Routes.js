@@ -12,6 +12,7 @@ import ComputerVision from "../BlogsPage/Blogs/Blog/ComputerVision/ComputerVisio
 import SQA from "../BlogsPage/Blogs/Blog/SQA/SQA";
 import GPT from "../BlogsPage/Blogs/Blog/GPT/GPT";
 import Chatbot from "../BlogsPage/Blogs/Blog/Chatbot/Chatbot";
+// import WebDevelopmentBlog from "../BlogsPage/Blogs/Blog/WebDevelopment/WebDevelopmentBlog";
 import WebDevelopment from "../ServicesPage/Services/Service/WebDevelopment/WebDevelopment";
 import AIML from "../ServicesPage/Services/Service/AI&ML/AI&ML";
 import NLP from "../ServicesPage/Services/Service/NLP/NLP";
@@ -22,6 +23,7 @@ import SQAService from "../ServicesPage/Services/Service/SQA/SQA";
 import TermsAndConditions from "../Shared/Footer/Legals/TermsAndConditions/TermsAndConditions";
 import Privacy from "../Shared/Footer/Legals/Privacy/Privacy";
 import GDPR from "../Shared/Footer/Legals/GDPR/GDPR";
+import WebDevelopmentBlog from "../BlogsPage/Blogs/Blog/WebDevelopment/WebDevelopment";
 
 const router = createBrowserRouter([
   {
@@ -103,6 +105,10 @@ const router = createBrowserRouter([
       {
         path: "/blogs/chatbot",
         element: <Chatbot></Chatbot>,
+      },
+      {
+        path: "/blogs/web-development",
+        element: <WebDevelopmentBlog></WebDevelopmentBlog>
       },
       {
         path: "/terms",

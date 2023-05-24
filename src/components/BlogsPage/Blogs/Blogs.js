@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
       <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
       {allData.map((data) => (
             <div
-              data-aos="flip-left"
+              data-aos="fade-up"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
             >

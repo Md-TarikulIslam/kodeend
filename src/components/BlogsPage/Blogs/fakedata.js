@@ -5,6 +5,7 @@ import img4 from "../../../assets/images/blogs/cm-vision.jpg";
 import img5 from "../../../assets/images/blogs/sqa.jpg";
 import img6 from "../../../assets/images/blogs/bot.png";
 import img7 from "../../../assets/images/blogs/chatbot.png";
+import img8 from "../../../assets/images/blogs/web.jpg";
 
 const fakedata = [
   {
@@ -55,6 +56,13 @@ const fakedata = [
     title: "Chatbot Development",
     desc: "Chatbots have become powerful tools for businesses to improve consumer relations and streamline operations in today's quickly changing technology landscape.",
     link: '/blogs/chatbot'
+  },
+  {
+    id: 8,
+    img: img8,
+    title: "Web Development",
+    desc: "A well-designed and efficient website is necessary for businesses to develop an online presence, draw clients, and promote success in the digital age.",
+    link: '/blogs/web-development'
   },
 ];
 export default fakedata;
