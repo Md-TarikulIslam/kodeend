@@ -18,6 +18,7 @@ import {
 import allReason from "./fakedata2";
 
 import QuoteForm from "../../../../Shared/QuoteForm/QuoteForm";
+import { Fade } from "react-awesome-reveal";
 
 const ERPService = () => {
   return (
@@ -49,71 +50,63 @@ const ERPService = () => {
       </div>
       <div className="grid grid-cols-1 md:pl-0 md:grid-cols-2  pl-1 lg:grid-cols-2 lg:pl-20 xl:grid-cols-3 xl:pl-6  2xl:pl-36  lg:pr-0 mx-auto  items-center justify-evenly  ">
         {allData.map((data) => (
-          <div
-            data-aos="fade-up"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
-          >
-            <Card className="my-16 w-96 height2">
-              <CardHeader color="blue-gray" className="relative h-56">
-                <img
-                  src={data.image}
-                  alt="img-blur-shadow"
-                  layout="fill"
-                  className="image-zoom"
-                />
-              </CardHeader>
-              <CardBody>
-                <Typography
-                  variant="h4"
-                  color="blue-gray"
-                  className="mb-2 font-regular "
-                >
-                  {data.title}
-                </Typography>
-                <Typography className="h-40 text-left font-regular">
-                  {data.desc}
-                </Typography>
-              </CardBody>
-            </Card>
-          </div>
+          <Fade duration={2000}>
+            <div>
+              <Card className="my-16 w-96 height2">
+                <CardHeader color="blue-gray" className="relative h-56">
+                  <img
+                    src={data.image}
+                    alt="img-blur-shadow"
+                    layout="fill"
+                    className="image-zoom"
+                  />
+                </CardHeader>
+                <CardBody>
+                  <Typography
+                    variant="h4"
+                    color="blue-gray"
+                    className="mb-2 font-regular "
+                  >
+                    {data.title}
+                  </Typography>
+                  <Typography className="h-40 text-left font-regular">
+                    {data.desc}
+                  </Typography>
+                </CardBody>
+              </Card>
+            </div>
+          </Fade>
         ))}
       </div>
       <QuoteForm></QuoteForm>
-      <div
-        data-aos="fade-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"
-      >
+      <div>
         <h1 className="why-choose-text ">WHY CHOOSE OUR ERP SERVICES</h1>
 
         <div className="w-[23rem] md:w-[40rem] lg:w-[50rem] mx-auto">
           <Timeline>
             <div>
               {allReason.map((reason) => (
-                <div
-                  data-aos="fade-up"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="1000"
-                >
-                  <TimelineItem className="h-44 ">
-                    <TimelineConnector className="!w-[78px] " />
-                    <TimelineHeader className="relative rounded-xl card-height border border-blue-gray-50 bg-white py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5">
-                      <TimelineIcon
-                        className="p-3"
-                        variant="ghost"
-                        color="blue"
-                      >
-                        <p className="h-5 w-5">{reason.icon}</p>
-                      </TimelineIcon>
-                      <div className="flex flex-col gap-1">
-                        <Typography variant="h6" color="blue-gray">
-                          {reason.text}
-                        </Typography>
-                      </div>
-                    </TimelineHeader>
-                  </TimelineItem>
-                </div>
+                <Fade duration={2500}>
+                  <div>
+                    <TimelineItem className="h-44 lg:h-28 ">
+                      <TimelineConnector className="!w-[78px] " />
+                      <TimelineHeader className="relative rounded-xl card-height border border-blue-gray-50 bg-white py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5">
+                        <TimelineIcon
+                          className="p-3"
+                          variant="ghost"
+                          color="blue"
+                        >
+                          <p className="h-5 w-5">{reason.icon}</p>
+                        </TimelineIcon>
+                        <div className="flex flex-col gap-1">
+                          <Typography variant="h6" color="blue-gray">
+                            {reason.text}
+                          </Typography>
+                        </div>
+                      </TimelineHeader>
+                    </TimelineItem>
+                  </div>
+                </Fade>
               ))}
             </div>
           </Timeline>

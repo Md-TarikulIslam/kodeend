@@ -12,7 +12,7 @@ export default function Hero() {
     <div>
       <Carousel transition={{ duration: 1 }} className=" ">
         <div className="flex items-center justify-evenly flex-col-reverse lg:flex-row bg-color">
-          <div data-aos="fade-right">
+          <div >
             <Typography
               variant="h1"
               color="white"
@@ -43,7 +43,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div data-aos="fade-left" className="stage">
+          <div className="stage">
             <img
               src={img1}
               alt="image 1"
@@ -52,7 +52,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex items-center justify-evenly font-regular flex-col-reverse lg:flex-row bg-color">
-          <div data-aos="fade-right">
+          <div>
             <Typography
               variant="h1"
               color="white"
@@ -83,7 +83,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div data-aos="fade-left" className="stage">
+          <div className="stage">
             <img
               src={img2}
               alt="image 2"
@@ -92,7 +92,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex items-center justify-evenly flex-col-reverse lg:flex-row bg-color">
-          <div data-aos="fade-right">
+          <div >
             <Typography
               variant="h1"
               color="white"
@@ -123,7 +123,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div data-aos="fade-left" className="stage">
+          <div className="stage">
             <img
               src={img3}
               alt="image 3"

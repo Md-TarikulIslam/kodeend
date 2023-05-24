@@ -18,13 +18,15 @@ import {
 import allReason from "./fakedata2";
 
 import QuoteForm from "../../../../Shared/QuoteForm/QuoteForm";
+import { Fade } from "react-awesome-reveal";
 
 const AIML = () => {
   return (
     <div>
       <div>
         <h1 className="service-text-2 font-bold">
-          TRANSFORM YOUR BUSINESS WITH AI/MLSERVICES FROM <br /> KODEEND IT SOLUTIONS
+          TRANSFORM YOUR BUSINESS WITH AI/MLSERVICES FROM <br /> KODEEND IT
+          SOLUTIONS
         </h1>
       </div>
 
@@ -50,11 +52,8 @@ const AIML = () => {
       </div>
       <div className="grid grid-cols-1 md:pl-0 md:grid-cols-2  pl-1 lg:grid-cols-2 lg:pl-20 xl:grid-cols-3 xl:pl-6  2xl:pl-36  lg:pr-0 mx-auto  items-center justify-evenly ">
         {allData.map((data) => (
-          <div
-            data-aos="fade-up"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
-          >
+           <Fade duration={2000}>
+          <div>
             <Card className="my-16 w-96 height2">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
@@ -78,26 +77,20 @@ const AIML = () => {
               </CardBody>
             </Card>
           </div>
+          </Fade>
         ))}
       </div>
       <QuoteForm></QuoteForm>
-      <div
-        data-aos="fade-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"
-      >
+      <div>
         <h1 className="why-choose-text ">WHY CHOOSE OUR AI AND ML SERVICES</h1>
 
         <div className="w-[23rem] md:w-[40rem] lg:w-[50rem] mx-auto">
           <Timeline>
             <div>
               {allReason.map((reason) => (
-                <div
-                  data-aos="fade-up"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="1000"
-                >
-                  <TimelineItem className="h-44 ">
+                 <Fade duration={2500}>
+                <div>
+                  <TimelineItem className="h-44 lg:h-28 ">
                     <TimelineConnector className="!w-[78px] " />
                     <TimelineHeader className="relative rounded-xl card-height border border-blue-gray-50 bg-white py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5">
                       <TimelineIcon
@@ -115,6 +108,7 @@ const AIML = () => {
                     </TimelineHeader>
                   </TimelineItem>
                 </div>
+                </Fade>
               ))}
             </div>
           </Timeline>

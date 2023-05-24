@@ -2,6 +2,8 @@ import { Input, Textarea } from "@material-tailwind/react";
 import React, { useRef } from "react";
 import { FcFeedback } from "react-icons/fc";
 import emailjs from "@emailjs/browser";
+import { Fade } from "react-awesome-reveal";
+
 const Contact = () => {
   const form = useRef();
   const handleSubmit = (e) => {
@@ -26,60 +28,66 @@ const Contact = () => {
   };
 
   return (
-    <div data-aos="fade-up">
+    <div>
       <h1 style={{ marginTop: "70px" }} className="who-text">
         Contact us
       </h1>
       <div>
         <form ref={form} onSubmit={handleSubmit} className="form-padding">
-          <Input
-            data-aos="fade-up"
-            className="input-field"
-            size="lg"
-            color="indigo"
-            label="Enter Your Name"
-            name="name"
-            type="text"
-            required
-          />{" "}
+          <Fade direction="up">
+            <Input
+              className="input-field"
+              size="lg"
+              color="indigo"
+              label="Enter Your Name"
+              name="name"
+              type="text"
+              required
+            />
+          </Fade>{" "}
           <br />
-          <Input
-            data-aos="fade-up"
-            className="input-field"
-            size="lg"
-            color="indigo"
-            label="Enter Your Phone Number"
-            name="phone"
-            type="number"
-            required
-          />{" "}
+          <Fade direction="up">
+            <Input
+              className="input-field"
+              size="lg"
+              color="indigo"
+              label="Enter Your Phone Number"
+              name="phone"
+              type="number"
+              required
+            />
+          </Fade>{" "}
           <br />
-          <Input
-            data-aos="fade-up"
-            className="input-field"
-            size="lg"
-            color="indigo"
-            label="Enter Your Email"
-            name="email"
-            type="email"
-            required
-          />{" "}
+          <Fade direction="up">
+            <Input
+              className="input-field"
+              size="lg"
+              color="indigo"
+              label="Enter Your Email"
+              name="email"
+              type="email"
+              required
+            />
+          </Fade>{" "}
           <br />
-          <Textarea
-            data-aos="fade-up"
-            color="indigo"
-            size="lg"
-            label="Your Message"
-            type="text"
-            name="textarea"
-            required
-          />
-          <div data-aos="fade-up" className="send-btn">
-            <button className="tracking-widest">SEND MESSAGE</button>
-            <span className="text-5xl">
-              <FcFeedback />
-            </span>
-          </div>
+          <Fade direction="up">
+            <Textarea
+              color="indigo"
+              size="lg"
+              label="Your Message"
+              type="text"
+              name="textarea"
+              required
+            />
+          </Fade>
+          <Fade direction="down">
+            <div className="send-btn">
+              <button className="tracking-widest">SEND MESSAGE</button>
+              <span className="text-5xl">
+                <FcFeedback />
+              </span>
+            </div>
+          </Fade>
         </form>
       </div>
     </div>

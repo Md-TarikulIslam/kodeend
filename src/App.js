@@ -2,7 +2,6 @@ import { RouterProvider } from "react-router-dom";
 import "./App.css";
 import router from "./components/Routes/Routes";
 import { useEffect, useState } from "react";
-import Aos from "aos";
 import ScrollToTop from "react-scroll-to-top";
 
 import { Vortex } from "react-loader-spinner";
@@ -16,9 +15,7 @@ function App() {
       setLoading(false);
     }, 1000);
   }, []);
-  useEffect(() => {
-    Aos.init();
-  }, []);
+
 
   return (
     <div className="font-regular">

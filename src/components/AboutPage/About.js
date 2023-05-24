@@ -3,19 +3,23 @@ import React from "react";
 import img from "../../../src/assets/images/about/1.jpg";
 import { FcReading } from "react-icons/fc";
 import { Link } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
     <div>
       <div className="flex flex-col  lg:flex-row lg:items-center px-10  lg:px-28 my-20">
-        <div data-aos="zoom-in-right">
+       <Fade direction="left">
+       <div >
           <img
             className="image-size mx-auto lg:mx-0 rounded-lg shadow-xl shadow-blue-gray-900/50"
             src={img}
             alt="nature image"
           />
         </div>
-        <div data-aos="fade-left">
+       </Fade>
+        <Fade direction="right">
+        <div >
           <h1 className="who-text">Who we are?</h1>
           <h1 className="service-text font-bold">About us</h1>
           <h1 className=" text-left mt-10 text-lg">
@@ -29,7 +33,7 @@ const About = () => {
             experience to help you achieve your goals. Contact us today to learn
             more about how we can help you take your business to the next level.
           </h1>
-          <div data-aos="fade-up" className="read-btn">
+          <div className="read-btn">
             <Link to="/blogs">
               {" "}
               <button className="tracking-widest">READ MORE</button>
@@ -39,6 +43,7 @@ const About = () => {
             </span>
           </div>
         </div>
+        </Fade>
       </div>
     </div>
   );
