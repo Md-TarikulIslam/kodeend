@@ -17,17 +17,21 @@ function App() {
     }, 1000);
   }, []);
 
-
   return (
     <div className="font-regular">
-        <Helmet>
-            <title>KodeEnd</title>
-            <meta name="description" content="This is for test" />
-            <meta
-            property="og:image"
-            content="https://www.kodeend.com/static/media/web.edeaeee737d4b19aa443.jpg" 
-          />
-          </Helmet>
+      <Helmet>
+        <title>KodeEnd</title>
+        <meta
+          name="description"
+          content="Elevate Your Software
+with KodeEnd IT Solutions"
+        />
+        <meta
+          property="og:image"
+          content="https://www.kodeend.com/static/media/img1.a1544e9a771a2d13e40e.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       {loading ? (
         <Vortex
           visible={true}
@@ -40,9 +44,7 @@ function App() {
           loading={loading}
         />
       ) : (
-        <RouterProvider router={router}>
-        
-        </RouterProvider>
+        <RouterProvider router={router}></RouterProvider>
       )}
       <ScrollToTop
         smooth
