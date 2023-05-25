@@ -16,11 +16,29 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const SQA = () => {
   const shareUrl = "https://www.kodeend.com/blogs/sqa";
   return (
     <div>
+       <Helmet>
+          <meta
+            property="og:url"
+            content="https://www.kodeend.com/blogs/web-development"
+          />
+          <title>Explore SQA</title>
+          <meta property="og:type" content="article" />
+          {/* <meta property="og:title" content="Web Development" /> */}
+          <meta
+            property="og:description"
+            content="A well-designed and efficient website is necessary for businesses to develop an online presence, draw clients, and promote success in the digital age."
+          />
+          <meta
+            property="og:image"
+            content="https://www.kodeend.com/static/media/sqa.9d8940d866852f7ee22d.jpg" 
+          />
+        </Helmet>
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />

@@ -16,8 +16,8 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import { Helmet } from "react-helmet";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet } from "react-helmet";
+import {  HelmetProvider } from "react-helmet-async";
 const WebDevelopmentBlog = () => {
   const shareUrl = "https://www.kodeend.com/blogs/web-development";
   return (
@@ -28,15 +28,16 @@ const WebDevelopmentBlog = () => {
             property="og:url"
             content="https://www.kodeend.com/blogs/web-development"
           />
+          <title>Explore Web Development</title>
           <meta property="og:type" content="article" />
-          <meta property="og:title" content="Web Development" />
+          {/* <meta property="og:title" content="Web Development" /> */}
           <meta
             property="og:description"
             content="A well-designed and efficient website is necessary for businesses to develop an online presence, draw clients, and promote success in the digital age."
           />
           <meta
             property="og:image"
-            content="https://www.kodeend.com/static/media/web.edeaeee737d4b19aa443.jpg"
+            content="https://www.kodeend.com/static/media/web.edeaeee737d4b19aa443.jpg" 
           />
         </Helmet>
         <div className="blog-card">
