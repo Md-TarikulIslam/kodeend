@@ -16,11 +16,20 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+// import { Helmet } from "react-helmet";
+import {Helmet, HelmetProvider } from "react-helmet-async";
 const WebDevelopmentBlog = () => {
   const shareUrl = "https://www.kodeend.com/blogs/web-development";
   return (
+    <HelmetProvider>
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Web Development</title>
+        <link rel="canonical" href="https://www.kodeend.com/blogs/web-development" />
+        <meta name="description" content="A well-designed and efficient website is necessary for businesses to develop an online presence, draw clients, and promote success in the digital age." />
+        <meta property="og:image" content="../../../../../assets/images/blogs/web.jpg" />
+      </Helmet>
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />
@@ -198,6 +207,7 @@ const WebDevelopmentBlog = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 
