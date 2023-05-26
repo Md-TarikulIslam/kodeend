@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../../../../assets/images/blogs/web.jpg";
 import { Typography } from "@material-tailwind/react";
+import { SuperSEO } from "react-super-seo";
 
 import {
   FacebookShareButton,
@@ -16,7 +17,7 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const WebDevelopmentBlog = () => {
   const shareUrl = "https://www.kodeend.com/blogs/web-development";
@@ -39,7 +40,19 @@ const WebDevelopmentBlog = () => {
           property="og:image"
           content="https://www.kodeend.com/static/media/web.edeaeee737d4b19aa443.jpg"
         />
+        <link rel="canonical" href="/blogs/web-development" />
       </Helmet>
+      {/* <SuperSEO
+        title="My Page"
+        description="An awesome page that does a lot of cool stuff"
+      >
+        <meta
+          property="og:image"
+          content="https://www.kodeend.com/static/media/web.edeaeee737d4b19aa443.jpg"
+        />
+        <meta name="custom-meta" content="my-value" />
+        <meta property="custom-meta-2" content="my-other-value" />
+      </SuperSEO> */}
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />

@@ -16,7 +16,7 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const SQA = () => {
   const shareUrl = "https://www.kodeend.com/blogs/sqa";
@@ -35,6 +35,7 @@ const SQA = () => {
           property="og:image"
           content="https://www.kodeend.com/static/media/sqa.9d8940d866852f7ee22d.jpg"
         />
+        <link rel="canonical" href="/blogs/sqa" />
       </Helmet>
       <div className="blog-card">
         <div>

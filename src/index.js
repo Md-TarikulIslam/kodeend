@@ -4,14 +4,17 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "@material-tailwind/react";
-import './assets/fonts/GoogleSans-Regular.ttf'
-import './assets/fonts/GoogleSans-Bold.ttf'
+import "./assets/fonts/GoogleSans-Regular.ttf";
+import "./assets/fonts/GoogleSans-Bold.ttf";
+import { HelmetProvider } from "react-helmet-async";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ThemeProvider>
-      <App />
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
     </ThemeProvider>
   </React.StrictMode>
 );
