@@ -17,40 +17,32 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import MetaDecorator from "../../../../Shared/MetaDecorator";
-import { Helmet } from "react-helmet";
-
-const content = require('../../../../Homepage/Hero/info.json')
 
 const WebDevelopmentBlog = () => {
   const shareUrl = "https://www.kodeend.com/blogs/web-development";
   return (
     <div>
-      <MetaDecorator
-        description={content.pageDescription}
-        title={content.pageTitle}
-        imageUrl={content.imageUrl}
-      ></MetaDecorator>
-      {/* <Helmet>
-        <meta
-          property="og:url"
-          content="https://www.kodeend.com/blogs/web-development"
-        />
-        <title>Web Development</title>
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Web Development" />
-
-        <meta
-          property="og:description"
-          content="A well-designed and efficient website is necessary for businesses to develop an online presence, draw clients, and promote success in the digital age."
-        />
-        <meta
-          property="og:image"
-          content="https://www.kodeend.com/static/media/web.edeaeee737d4b19aa443.jpg"
-        />
-        <link rel="canonical" href="/blogs/web-development" />
-      </Helmet> */}
-
+      <SuperSEO
+        title="Home | React Super SEO"
+        description="React SEO component with OpenGraph and Twitter Cards support."
+        lang="en"
+        openGraph={{
+          ogImage: {
+            ogImage: "http://placekitten.com/1200/630",
+            ogImageAlt: "Kittens",
+            ogImageWidth: 1200,
+            ogImageHeight: 630,
+            ogImageType: "image/jpeg",
+          },
+        }}
+        twitter={{
+          twitterSummaryCard: {
+            summaryCardImage: "http://placekitten.com/1200/630",
+            summaryCardImageAlt: "Kittens",
+            summaryCardSiteUsername: "justinmahar",
+          },
+        }}
+      />
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />
