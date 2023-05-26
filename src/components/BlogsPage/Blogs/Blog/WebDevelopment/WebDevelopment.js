@@ -1,7 +1,6 @@
 import React from "react";
 import img from "../../../../../assets/images/blogs/web.jpg";
 import { Typography } from "@material-tailwind/react";
-import { SuperSEO } from "react-super-seo";
 
 import {
   FacebookShareButton,
@@ -22,27 +21,6 @@ const WebDevelopmentBlog = () => {
   const shareUrl = "https://www.kodeend.com/blogs/web-development";
   return (
     <div>
-      <SuperSEO
-        title="Home | React Super SEO"
-        description="React SEO component with OpenGraph and Twitter Cards support."
-        lang="en"
-        openGraph={{
-          ogImage: {
-            ogImage: "http://placekitten.com/1200/630",
-            ogImageAlt: "Kittens",
-            ogImageWidth: 1200,
-            ogImageHeight: 630,
-            ogImageType: "image/jpeg",
-          },
-        }}
-        twitter={{
-          twitterSummaryCard: {
-            summaryCardImage: "http://placekitten.com/1200/630",
-            summaryCardImageAlt: "Kittens",
-            summaryCardSiteUsername: "justinmahar",
-          },
-        }}
-      />
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />
