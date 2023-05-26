@@ -29,9 +29,10 @@ const WebDevelopmentBlog = () => {
         />
         <title>Web Development</title>
         <meta property="og:type" content="article" />
+        <meta property="og:title" content="Web Development" />
 
         <meta
-          property="description"
+          property="og:description"
           content="A well-designed and efficient website is necessary for businesses to develop an online presence, draw clients, and promote success in the digital age."
         />
         <meta

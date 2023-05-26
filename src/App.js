@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 import { Vortex } from "react-loader-spinner";
 import icon from "./assets/images/arrow.png";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -19,19 +19,7 @@ function App() {
 
   return (
     <div className="font-regular">
-      <Helmet>
-        <title>KodeEnd</title>
-        <meta
-          name="description"
-          content="Elevate Your Software
-with KodeEnd IT Solutions"
-        />
-        <meta
-          property="og:image"
-          content="https://www.kodeend.com/static/media/img1.a1544e9a771a2d13e40e.png"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
+   
       {loading ? (
         <Vortex
           visible={true}
