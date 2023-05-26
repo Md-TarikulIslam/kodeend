@@ -16,13 +16,13 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 
 const SQA = () => {
   const shareUrl = "https://www.kodeend.com/blogs/sqa";
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <meta property="og:url" content="https://www.kodeend.com/blogs/sqa" />
         <title>SQA</title>
         <meta property="og:type" content="article" />
@@ -36,7 +36,7 @@ const SQA = () => {
           content="https://www.kodeend.com/static/media/sqa.9d8940d866852f7ee22d.jpg"
         />
         <link rel="canonical" href="/blogs/sqa" />
-      </Helmet>
+      </Helmet> */}
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />
