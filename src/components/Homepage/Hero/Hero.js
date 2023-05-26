@@ -6,12 +6,17 @@ import img2 from "../../../assets/images/hero/img2.png";
 import img3 from "../../../assets/images/hero/img3.png";
 import Service from "../Service/Service";
 import { Link } from "react-router-dom";
+import MetaDecorator from "../../Shared/MetaDecorator";
 
+const content = require("./info.json");
 export default function Hero() {
   return (
     <div>
+     
       <Carousel transition={{ duration: 1 }} className=" ">
+      
         <div className="flex items-center justify-evenly flex-col-reverse lg:flex-row bg-color">
+          
           <div>
             <Typography
               variant="h1"

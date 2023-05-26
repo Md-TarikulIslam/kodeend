@@ -17,12 +17,20 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import { Helmet } from "react-helmet";
+import MetaDecorator from "../../../../Shared/MetaDecorator";
+import { Helmet } from "react-helmet";
+
+const content = require('../../../../Homepage/Hero/info.json')
 
 const WebDevelopmentBlog = () => {
   const shareUrl = "https://www.kodeend.com/blogs/web-development";
   return (
     <div>
+      <MetaDecorator
+        description={content.pageDescription}
+        title={content.pageTitle}
+        imageUrl={content.imageUrl}
+      ></MetaDecorator>
       {/* <Helmet>
         <meta
           property="og:url"
