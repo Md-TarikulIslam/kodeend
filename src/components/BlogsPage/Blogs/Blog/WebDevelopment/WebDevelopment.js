@@ -16,11 +16,28 @@ import {
   FaRedditSquare,
 } from "react-icons/fa";
 import { Link, ScrollRestoration } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const WebDevelopmentBlog = () => {
   const shareUrl = "https://www.kodeend.com/blogs/web-development";
   return (
     <div>
+      <Helmet>
+        <title>Web development</title>
+        <meta property="og:title" content="Web Development" />
+        <meta property="og:description" content="Web Development is fun." />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:image"
+          content="https://www.kodeend.com/static/media/web.edeaeee737d4b19aa443.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.kodeend.com/blogs/web-development"
+        />
+        <link rel="canonical" href="/blogs/web-development" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />

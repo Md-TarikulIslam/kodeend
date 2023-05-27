@@ -6,10 +6,27 @@ import img2 from "../../../assets/images/hero/img2.png";
 import img3 from "../../../assets/images/hero/img3.png";
 import Service from "../Service/Service";
 import { Link, ScrollRestoration } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default function Hero() {
   return (
     <div>
+       <Helmet>
+        <title>KodeEnd</title>
+        <meta property="og:title" content="KodeEnd" />
+        <meta property="og:description" content="Web Development is fun." />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:image"
+          content="https://www.kodeend.com/static/media/web.edeaeee737d4b19aa443.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.kodeend.com/"
+        />
+        <link rel="canonical" href="/" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <Carousel transition={{ duration: 1 }} className=" ">
         <div className="flex items-center justify-evenly flex-col-reverse lg:flex-row bg-color">
           <div>
