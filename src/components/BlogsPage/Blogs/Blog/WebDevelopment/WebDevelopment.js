@@ -22,7 +22,7 @@ const WebDevelopmentBlog = () => {
   const shareUrl = "https://www.kodeend.com/blogs/web-development";
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <title>Web development</title>
         <meta property="og:title" content="Web Development" />
         <meta property="og:description" content="Web Development is fun." />
@@ -37,7 +37,7 @@ const WebDevelopmentBlog = () => {
         />
         <link rel="canonical" href="/blogs/web-development" />
         <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
+      </Helmet> */}
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />

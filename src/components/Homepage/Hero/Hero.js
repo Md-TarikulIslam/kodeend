@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 export default function Hero() {
   return (
     <div>
-       <Helmet>
+       {/* <Helmet>
         <title>KodeEnd</title>
         <meta property="og:title" content="KodeEnd" />
         <meta property="og:description" content="Web Development is fun." />
@@ -26,7 +26,7 @@ export default function Hero() {
         />
         <link rel="canonical" href="/" />
         <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
+      </Helmet> */}
       <Carousel transition={{ duration: 1 }} className=" ">
         <div className="flex items-center justify-evenly flex-col-reverse lg:flex-row bg-color">
           <div>
