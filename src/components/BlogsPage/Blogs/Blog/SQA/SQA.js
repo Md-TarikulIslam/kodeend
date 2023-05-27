@@ -15,7 +15,7 @@ import {
   FaTwitterSquare,
   FaRedditSquare,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 // import { Helmet } from "react-helmet-async";
 
 const SQA = () => {
@@ -175,6 +175,7 @@ const SQA = () => {
           </RedditShareButton>
         </div>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

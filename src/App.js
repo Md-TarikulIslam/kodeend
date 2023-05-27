@@ -10,13 +10,14 @@ import icon from "./assets/images/arrow.png";
 
 function App() {
   const [loading, setLoading] = useState(false);
+  
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 1000);
   }, []);
-
+ 
   return (
     <div className="font-regular">
    

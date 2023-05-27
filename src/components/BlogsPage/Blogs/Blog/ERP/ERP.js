@@ -15,7 +15,7 @@ import {
   FaTwitterSquare,
   FaRedditSquare,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 
 const ERP = () => {
   const shareUrl = "https://www.kodeend.com/blogs/erp";
@@ -169,6 +169,7 @@ const ERP = () => {
           </RedditShareButton>
         </div>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

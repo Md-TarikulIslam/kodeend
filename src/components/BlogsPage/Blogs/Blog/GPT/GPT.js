@@ -15,6 +15,7 @@ import {
   FaTwitterSquare,
   FaRedditSquare,
 } from "react-icons/fa";
+import { ScrollRestoration } from "react-router-dom";
 
 const GPT = () => {
   const shareUrl = "https://www.kodeend.com/blogs/gpt";
@@ -148,6 +149,7 @@ const GPT = () => {
           </RedditShareButton>
         </div>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

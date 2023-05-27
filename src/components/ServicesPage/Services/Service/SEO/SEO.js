@@ -19,6 +19,7 @@ import allReason from "./fakedata2";
 
 import QuoteForm from "../../../../Shared/QuoteForm/QuoteForm";
 import { Fade } from "react-awesome-reveal";
+import { ScrollRestoration } from "react-router-dom";
 
 const SEOService = () => {
   return (
@@ -111,6 +112,7 @@ const SEOService = () => {
           </Timeline>
         </div>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

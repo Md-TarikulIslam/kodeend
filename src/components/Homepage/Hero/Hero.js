@@ -5,7 +5,7 @@ import img1 from "../../../assets/images/hero/img1.png";
 import img2 from "../../../assets/images/hero/img2.png";
 import img3 from "../../../assets/images/hero/img3.png";
 import Service from "../Service/Service";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -133,6 +133,7 @@ export default function Hero() {
         </div>
       </Carousel>
       <Service></Service>
+      <ScrollRestoration />
     </div>
   );
 }

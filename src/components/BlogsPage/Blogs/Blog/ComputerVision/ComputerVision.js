@@ -15,7 +15,7 @@ import {
   FaTwitterSquare,
   FaRedditSquare,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 
 const ComputerVision = () => {
   const shareUrl = "https://www.kodeend.com/blogs/computer-vision";
@@ -199,6 +199,7 @@ const ComputerVision = () => {
           </RedditShareButton>
         </div>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

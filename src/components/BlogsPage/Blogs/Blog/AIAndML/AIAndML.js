@@ -15,6 +15,7 @@ import {
   FaTwitterSquare,
   FaRedditSquare,
 } from "react-icons/fa";
+import { ScrollRestoration } from "react-router-dom";
 
 
 const AIAndML = () => {
@@ -175,6 +176,7 @@ const AIAndML = () => {
           </div>
         </div>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

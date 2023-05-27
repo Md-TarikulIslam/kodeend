@@ -19,6 +19,7 @@ import allReason from "./fakedata2";
 
 import QuoteForm from "../../../../Shared/QuoteForm/QuoteForm";
 import { Fade } from "react-awesome-reveal";
+import { ScrollRestoration } from "react-router-dom";
 
 const NLP = () => {
   return (
@@ -113,6 +114,7 @@ const NLP = () => {
           </Timeline>
         </div>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

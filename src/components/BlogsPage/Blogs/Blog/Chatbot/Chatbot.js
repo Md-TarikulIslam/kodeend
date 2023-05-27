@@ -15,6 +15,7 @@ import {
   FaTwitterSquare,
   FaRedditSquare,
 } from "react-icons/fa";
+import { ScrollRestoration } from "react-router-dom";
 
 const Chatbot = () => {
   const shareUrl = "https://www.kodeend.com/blogs/chatbot";
@@ -223,6 +224,7 @@ const Chatbot = () => {
           </RedditShareButton>
         </div>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

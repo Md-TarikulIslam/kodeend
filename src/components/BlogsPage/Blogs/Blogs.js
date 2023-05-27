@@ -7,7 +7,7 @@ import {
   Button,
 } from "@material-tailwind/react";
 import allData from "./fakedata";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 
 export default function Blogs() {
@@ -52,6 +52,7 @@ export default function Blogs() {
           </Fade>
         ))}
       </div>
+      <ScrollRestoration />
     </div>
   );
 }

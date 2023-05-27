@@ -2,7 +2,7 @@
 import React from "react";
 import img from "../../../src/assets/images/about/1.jpg";
 import { FcReading } from "react-icons/fc";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 
 const About = () => {
@@ -45,6 +45,7 @@ const About = () => {
         </div>
         </Fade>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { FcFeedback } from "react-icons/fc";
 import emailjs from "@emailjs/browser";
 import { Fade } from "react-awesome-reveal";
+import { ScrollRestoration } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
@@ -90,6 +91,7 @@ const Contact = () => {
           </Fade>
         </form>
       </div>
+      <ScrollRestoration />
     </div>
   );
 };
