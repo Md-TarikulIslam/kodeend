@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import {
   Navbar,
-  MobileNav,
+  Collapse,
   Typography,
 
   IconButton,
@@ -105,7 +105,7 @@ export default function Header() {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>{navList}</MobileNav>
+        <Collapse open={openNav}>{navList}</Collapse>
       </Navbar>
     </>
   );

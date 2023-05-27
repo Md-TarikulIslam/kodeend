@@ -50,7 +50,7 @@ const SEOService = () => {
       </div>
       <div className="grid grid-cols-1 md:pl-0 md:grid-cols-2  pl-1 lg:grid-cols-2 lg:pl-20 xl:grid-cols-3 xl:pl-6  2xl:pl-36  lg:pr-0 mx-auto  items-center justify-evenly ">
         {allData.map((data) => (
-          <Fade duration={2000}>
+          <Fade key={data.id} duration={2000}>
             <div>
               <Card className="my-16 w-96 height2">
                 <CardHeader color="blue-gray" className="relative h-56">
@@ -86,7 +86,7 @@ const SEOService = () => {
           <Timeline>
             <div>
               {allReason.map((reason) => (
-                <Fade duration={2500}>
+                <Fade key={reason.id} duration={2500}>
                   <div>
                     <TimelineItem className="h-44 lg:h-28 ">
                       <TimelineConnector className="!w-[78px] " />

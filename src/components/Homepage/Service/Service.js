@@ -26,7 +26,7 @@ export default function Service() {
        
        <div className="flex justify-evenly flex-col items-center lg:flex-row mt-20 lg:mt-0 gap-20 lg:gap-0">
           {allData.map((data) => (
-            <Fade duration={1500} direction="left">
+            <Fade key={data.id} duration={1500} direction="left">
             <div>
               <Card className="mt-6 w-96 height">
                 <CardHeader color="blue-gray" className="relative h-56">

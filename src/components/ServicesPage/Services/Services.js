@@ -21,8 +21,8 @@ export default function Services() {
       </div>
       <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
         {allData.map((data) => (
-          <Fade direction="left">
-            <div>
+          <Fade key={data.id} direction="left">
+            <div >
               <Card className="my-16 w-96 height">
                 <CardHeader color="blue-gray" className="relative h-56">
                   <img
