@@ -23,10 +23,10 @@ const WebDevelopmentBlog = () => {
   return (
     <div>
       
-      <Helmet>
+      {/* <Helmet>
         <title>Web development</title>
         <meta property="og:title" content="Web Development" />
-        <meta property="og:description" content="Web Development is fun." />
+        <meta property="description" content="Web Development is fun." />
         <meta property="og:type" content="article" />
         <meta
           property="og:image"
@@ -38,7 +38,7 @@ const WebDevelopmentBlog = () => {
         />
         <link rel="canonical" href="/blogs/web-development" />
         <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
+      </Helmet> */}
       <div className="blog-card">
         <div>
           <img className="blog-img" src={img} alt="" />

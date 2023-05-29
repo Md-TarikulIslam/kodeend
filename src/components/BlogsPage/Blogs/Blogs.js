@@ -43,9 +43,9 @@ export default function Blogs() {
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
-                <a href={data.link}>
+                <Link to={data.link}>
                   <Button>Read More</Button>
-                </a>
+                </Link>
               </CardFooter>
             </Card>
           </div>
