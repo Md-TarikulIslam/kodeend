@@ -68,7 +68,7 @@
 
     .blog-card {
         flex-direction: column;
-        width: 980px;
+        width: 780px;
         margin: 0 auto;
         box-shadow: inherit;
     }
@@ -81,13 +81,23 @@
     .another-card {
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 950px;
+        width: 750px;
     }
 }
 
 @media screen and (min-width:1025px) and (max-width:1536px) {
+    .blog-img{
+        height: 550px;
+        width: 900px;
+    }
     .blog-card {
         flex-direction: column;
+        box-shadow: inherit;
+    }
+    .another-card {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 950px;
     }
 
 
