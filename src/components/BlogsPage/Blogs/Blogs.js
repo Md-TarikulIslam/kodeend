@@ -43,9 +43,9 @@ export default function Blogs() {
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
-                <Link to={data.link}>
+                <a href={data.link}>
                   <Button>Read More</Button>
-                </Link>
+                </a>
               </CardFooter>
             </Card>
           </div>
@@ -56,3 +56,4 @@ export default function Blogs() {
     </div>
   );
 }
+
