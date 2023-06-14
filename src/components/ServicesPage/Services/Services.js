@@ -19,7 +19,7 @@ export default function Services() {
           Services we can help you with
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
+      <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3  pl-1 lg:pl-32 lg:gap-10 items-center justify-evenly ">
         {allData.map((data) => (
           <Fade key={data.id} direction="left">
             <div >
@@ -58,3 +58,4 @@ export default function Services() {
     </div>
   );
 }
+
