@@ -46,7 +46,7 @@ export default function Header() {
       </Typography>
       <Typography as="li" variant="" color="white" className="p-1   ">
         <Link to="/contact" className="flex text-xl font-bold items-center">
-          Contact
+          Contacts
         </Link>
       </Typography>
     </ul>
