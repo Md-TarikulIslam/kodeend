@@ -25,24 +25,14 @@ import TermsAndConditions from "../Shared/Footer/Legals/TermsAndConditions/Terms
 import Privacy from "../Shared/Footer/Legals/Privacy/Privacy";
 import GDPR from "../Shared/Footer/Legals/GDPR/GDPR";
 import WebDevelopmentBlog from "../BlogsPage/Blogs/Blog/WebDevelopment/WebDevelopment";
+import ChatbotCase from "../CaseStudyPage/CaseStudy/ChatbotCase/ChatbotCase";
+import ProfitMaxCase from "../CaseStudyPage/CaseStudy/ProfitMaxCase/ProfitMax";
+import DeepLearningCase from "../CaseStudyPage/CaseStudy/DeepLearningCase/DeepLearningCase";
+import SocialMediaCase from "../CaseStudyPage/CaseStudy/SocialMediaCase/SocialMediaCase";
+import FraudDetectionCase from "../CaseStudyPage/CaseStudy/FraudDetectionCase/FraudDetectionCase";
 
 const LazyCasePage = React.lazy(() =>
   import("../CaseStudyPage/CaseStudies.js")
-);
-const LazyChatbotCase = React.lazy(() =>
-  import("../CaseStudyPage/CaseStudy/ChatbotCase/ChatbotCase")
-);
-const LazyProfitMaxCase = React.lazy(() =>
-  import("../CaseStudyPage/CaseStudy/ProfitMaxCase/ProfitMax")
-);
-const LazyFraudDetectionCase = React.lazy(() =>
-  import("../CaseStudyPage/CaseStudy/FraudDetectionCase/FraudDetectionCase")
-);
-const LazySocialMediaCase = React.lazy(() =>
-  import("../CaseStudyPage/CaseStudy/SocialMediaCase/SocialMediaCase")
-);
-const LazyDeepLearningCase = React.lazy(() =>
-  import("../CaseStudyPage/CaseStudy/DeepLearningCase/DeepLearningCase")
 );
 
 const router = createBrowserRouter([
@@ -140,43 +130,23 @@ const router = createBrowserRouter([
       },
       {
         path: "/case-study/chatbot",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyChatbotCase></LazyChatbotCase>
-          </Suspense>
-        ),
+        element: <ChatbotCase></ChatbotCase>,
       },
       {
         path: "/case-study/profit",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyProfitMaxCase></LazyProfitMaxCase>
-          </Suspense>
-        ),
+        element: <ProfitMaxCase></ProfitMaxCase>,
       },
       {
         path: "/case-study/forest",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyDeepLearningCase></LazyDeepLearningCase>
-          </Suspense>
-        ),
+        element: <DeepLearningCase></DeepLearningCase>,
       },
       {
         path: "/case-study/social",
-        element: (
-          <Suspense fallback="loading...">
-            <LazySocialMediaCase></LazySocialMediaCase>
-          </Suspense>
-        ),
+        element: <SocialMediaCase></SocialMediaCase>,
       },
       {
         path: "/case-study/fraud-detection",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyFraudDetectionCase></LazyFraudDetectionCase>
-          </Suspense>
-        ),
+        element: <FraudDetectionCase></FraudDetectionCase>,
       },
       {
         path: "/terms",
