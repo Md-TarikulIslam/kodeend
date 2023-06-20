@@ -2,54 +2,30 @@ import React, { Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Main";
 import Hero from "../Homepage/Hero/Hero";
+import About from "../AboutPage/About";
 import Contact from "../ContactPage/Contact";
+import Services from "../ServicesPage/Services/Services";
+import Blogs from "../BlogsPage/Blogs/Blogs";
+import AIAndML from "../BlogsPage/Blogs/Blog/AIAndML/AIAndML";
+import ERP from "../BlogsPage/Blogs/Blog/ERP/ERP";
+import BlockChain from "../BlogsPage/Blogs/Blog/BlockChain/BlockChain";
+import ComputerVision from "../BlogsPage/Blogs/Blog/ComputerVision/ComputerVision";
+import SQA from "../BlogsPage/Blogs/Blog/SQA/SQA";
+import GPT from "../BlogsPage/Blogs/Blog/GPT/GPT";
+import Chatbot from "../BlogsPage/Blogs/Blog/Chatbot/Chatbot";
+// import WebDevelopmentBlog from "../BlogsPage/Blogs/Blog/WebDevelopment/WebDevelopmentBlog";
+import WebDevelopment from "../ServicesPage/Services/Service/WebDevelopment/WebDevelopment";
+import AIML from "../ServicesPage/Services/Service/AI&ML/AI&ML";
+import NLP from "../ServicesPage/Services/Service/NLP/NLP";
+import Blockchain from "../ServicesPage/Services/Service/Blockchain/Blockchain";
+import ERPService from "../ServicesPage/Services/Service/ERP/ERP";
+import SEOService from "../ServicesPage/Services/Service/SEO/SEO";
+import SQAService from "../ServicesPage/Services/Service/SQA/SQA";
 import TermsAndConditions from "../Shared/Footer/Legals/TermsAndConditions/TermsAndConditions";
 import Privacy from "../Shared/Footer/Legals/Privacy/Privacy";
 import GDPR from "../Shared/Footer/Legals/GDPR/GDPR";
-const LazyAboutPage = React.lazy(() => import("../AboutPage/About"));
-const LazyServicesPage = React.lazy(() =>
-  import("../ServicesPage/Services/Services")
-);
-const LazyWebService = React.lazy(() =>
-  import("../ServicesPage/Services/Service/WebDevelopment/WebDevelopment")
-);
-const LazyAIMLService = React.lazy(() =>
-  import("../ServicesPage/Services/Service/AI&ML/AI&ML")
-);
-const LazyNLPService = React.lazy(() =>
-  import("../ServicesPage/Services/Service/NLP/NLP")
-);
-const LazyBlockchainService = React.lazy(() =>
-  import("../ServicesPage/Services/Service/Blockchain/Blockchain")
-);
-const LazyERPService = React.lazy(() =>
-  import("../ServicesPage/Services/Service/ERP/ERP")
-);
-const LazySEOService = React.lazy(() =>
-  import("../ServicesPage/Services/Service/SEO/SEO")
-);
-const LazySQAService = React.lazy(() =>
-  import("../ServicesPage/Services/Service/SQA/SQA")
-);
-const LazyBlogsPage = React.lazy(() => import("../BlogsPage/Blogs/Blogs"));
-const LazyAIMLPage = React.lazy(() =>
-  import("../BlogsPage/Blogs/Blog/AIAndML/AIAndML")
-);
-const LazyERPPage = React.lazy(() => import("../BlogsPage/Blogs/Blog/ERP/ERP"));
-const LazyBlokchainPage = React.lazy(() =>
-  import("../BlogsPage/Blogs/Blog/BlockChain/BlockChain")
-);
-const LazyComputerVisionPage = React.lazy(() =>
-  import("../BlogsPage/Blogs/Blog/ComputerVision/ComputerVision")
-);
-const LazySQAPage = React.lazy(() => import("../BlogsPage/Blogs/Blog/SQA/SQA"));
-const LazyGPTPage = React.lazy(() => import("../BlogsPage/Blogs/Blog/GPT/GPT"));
-const LazyChatbotPage = React.lazy(() =>
-  import("../BlogsPage/Blogs/Blog/Chatbot/Chatbot")
-);
-const LazyWebDevPage = React.lazy(() =>
-  import("../BlogsPage/Blogs/Blog/WebDevelopment/WebDevelopment")
-);
+import WebDevelopmentBlog from "../BlogsPage/Blogs/Blog/WebDevelopment/WebDevelopment";
+
 const LazyCasePage = React.lazy(() =>
   import("../CaseStudyPage/CaseStudies.js")
 );
@@ -80,11 +56,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyAboutPage></LazyAboutPage>
-          </Suspense>
-        ),
+        element: <About></About>,
       },
       {
         path: "/contact",
@@ -92,139 +64,71 @@ const router = createBrowserRouter([
       },
       {
         path: "/services",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyServicesPage></LazyServicesPage>
-          </Suspense>
-        ),
+        element: <Services></Services>,
       },
       {
         path: "/services/web-development",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyWebService></LazyWebService>
-          </Suspense>
-        ),
+        element: <WebDevelopment></WebDevelopment>,
       },
       {
         path: "/services/ai-ml",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyAIMLService></LazyAIMLService>
-          </Suspense>
-        ),
+        element: <AIML></AIML>,
       },
       {
         path: "/services/nlp",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyNLPService></LazyNLPService>
-          </Suspense>
-        ),
+        element: <NLP></NLP>,
       },
       {
         path: "/services/blockchain",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyBlockchainService></LazyBlockchainService>
-          </Suspense>
-        ),
+        element: <Blockchain></Blockchain>,
       },
       {
         path: "/services/erp",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyERPService></LazyERPService>
-          </Suspense>
-        ),
+        element: <ERPService></ERPService>,
       },
       {
         path: "/services/seo",
-        element: (
-          <Suspense fallback="loading...">
-            <LazySEOService></LazySEOService>
-          </Suspense>
-        ),
+        element: <SEOService></SEOService>,
       },
       {
         path: "/services/sqa",
-        element: (
-          <Suspense fallback="loading...">
-            <LazySQAService></LazySQAService>
-          </Suspense>
-        ),
+        element: <SQAService></SQAService>,
       },
       {
         path: "/blogs",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyBlogsPage></LazyBlogsPage>
-          </Suspense>
-        ),
+        element: <Blogs></Blogs>,
       },
       {
         path: "/blogs/ai-ml",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyAIMLPage></LazyAIMLPage>
-          </Suspense>
-        ),
+        element: <AIAndML></AIAndML>,
       },
       {
         path: "/blogs/erp",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyERPPage></LazyERPPage>
-          </Suspense>
-        ),
+        element: <ERP></ERP>,
       },
       {
         path: "/blogs/blockchain",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyBlokchainPage></LazyBlokchainPage>
-          </Suspense>
-        ),
+        element: <BlockChain></BlockChain>,
       },
       {
         path: "/blogs/computer-vision",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyComputerVisionPage></LazyComputerVisionPage>
-          </Suspense>
-        ),
+        element: <ComputerVision></ComputerVision>,
       },
       {
         path: "/blogs/sqa",
-        element: (
-          <Suspense fallback="loading...">
-            <LazySQAPage></LazySQAPage>
-          </Suspense>
-        ),
+        element: <SQA></SQA>,
       },
       {
         path: "/blogs/gpt",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyGPTPage></LazyGPTPage>
-          </Suspense>
-        ),
+        element: <GPT></GPT>,
       },
       {
         path: "/blogs/chatbot",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyChatbotPage></LazyChatbotPage>
-          </Suspense>
-        ),
+        element: <Chatbot></Chatbot>,
       },
       {
         path: "/blogs/web-development",
-        element: (
-          <Suspense fallback="loading...">
-            <LazyWebDevPage></LazyWebDevPage>
-          </Suspense>
-        ),
+        element: <WebDevelopmentBlog></WebDevelopmentBlog>,
       },
       {
         path: "/case-study",
