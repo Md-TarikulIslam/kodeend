@@ -3,9 +3,7 @@ import {
   Navbar,
   Collapse,
   Typography,
-
   IconButton,
-
 } from "@material-tailwind/react";
 
 import logo from "../../../assets/images/logo/logo.jpg";
@@ -42,6 +40,11 @@ export default function Header() {
       <Typography as="li" variant="" color="white" className="p-1   ">
         <Link to="blogs" className="flex text-xl font-bold items-center">
           Blogs
+        </Link>
+      </Typography>
+      <Typography as="li" variant="" color="white" className="p-1   ">
+        <Link to="/case-study" className="flex text-xl font-bold items-center">
+          Case Study
         </Link>
       </Typography>
       <Typography as="li" variant="" color="white" className="p-1   ">

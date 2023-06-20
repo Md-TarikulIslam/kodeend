@@ -17,43 +17,44 @@ export default function Blogs() {
         <h1 className="what-text">Our blogs</h1>
         <h1 className="service-text font-bold">All the blogs are here</h1>
       </div>
-      <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3 pl-1 lg:pl-32  items-center justify-evenly ">
-        {allData.map((data) => (
-          <Fade key={data.id} direction="right">
-          <div >
-            <Card className="my-16 w-96 height">
-              <CardHeader color="blue-gray" className="relative h-56">
-                <img
-                  src={data.img}
-                  alt="img-blur-shadow"
-                  layout="fill"
-                  className="image-zoom"
-                />
-              </CardHeader>
-              <CardBody>
-                <Typography
-                  variant="h4"
-                  color="blue-gray"
-                  className="mb-2 font-regular "
-                >
-                  {data.title}
-                </Typography>
-                <Typography className="h-32 text-left font-regular">
-                  {data.desc}
-                </Typography>
-              </CardBody>
-              <CardFooter className="pt-0">
-                <Link to={data.link}>
-                  <Button>Read More</Button>
-                </Link>
-              </CardFooter>
-            </Card>
-          </div>
-          </Fade>
-        ))}
+      <div className="max-w-screen-2xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:grid-cols-3 gap-0">
+          {allData.map((data) => (
+            <Fade key={data.id} direction="right" duration={500}>
+              <div>
+                <Card className="my-10 w-96 blogs-card-height">
+                  <CardHeader color="blue-gray" className="relative h-56">
+                    <img
+                      src={data.img}
+                      alt="img-blur-shadow"
+                      layout="fill"
+                      className="image-zoom"
+                    />
+                  </CardHeader>
+                  <CardBody className="blogs-card-p">
+                    <Typography
+                      variant="h4"
+                      color="blue-gray"
+                      className="mb-2 font-regular "
+                    >
+                      {data.title}
+                    </Typography>
+                    <Typography className="h-32 text-left  font-regular">
+                      {data.desc}
+                    </Typography>
+                  </CardBody>
+                  <CardFooter className="pt-0">
+                    <Link to={data.link}>
+                      <Button>Read More</Button>
+                    </Link>
+                  </CardFooter>
+                </Card>
+              </div>
+            </Fade>
+          ))}
+        </div>
       </div>
       <ScrollRestoration />
     </div>
   );
 }
-

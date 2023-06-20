@@ -50,35 +50,37 @@ const SQAService = () => {
       <div>
         <h1 className="sub-header-text ">THE FEATURES WE PROVIDE</h1>
       </div>
-      <div className="grid grid-cols-1 md:pl-0 md:grid-cols-2  pl-1 lg:grid-cols-2 lg:pl-20 xl:grid-cols-3 xl:pl-6  2xl:pl-36  lg:pr-0 mx-auto  items-center justify-evenly  ">
-        {allData.map((data) => (
-          <Fade key={data.id} duration={2500}>
-            <div>
-              <Card className="my-16 w-96 height2">
-                <CardHeader color="blue-gray" className="relative h-56">
-                  <img
-                    src={data.image}
-                    alt="img-blur-shadow"
-                    layout="fill"
-                    className="image-zoom"
-                  />
-                </CardHeader>
-                <CardBody>
-                  <Typography
-                    variant="h4"
-                    color="blue-gray"
-                    className="mb-2 font-regular "
-                  >
-                    {data.title}
-                  </Typography>
-                  <Typography className="h-32 text-left font-regular">
-                    {data.desc}
-                  </Typography>
-                </CardBody>
-              </Card>
-            </div>
-          </Fade>
-        ))}
+      <div className="max-w-screen-2xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:grid-cols-3 gap-0">
+          {allData.map((data) => (
+            <Fade key={data.id} duration={500}>
+              <div>
+                <Card className="my-10 w-96 height2">
+                  <CardHeader color="blue-gray" className="relative h-56">
+                    <img
+                      src={data.image}
+                      alt="img-blur-shadow"
+                      layout="fill"
+                      className="image-zoom"
+                    />
+                  </CardHeader>
+                  <CardBody>
+                    <Typography
+                      variant="h4"
+                      color="blue-gray"
+                      className="mb-2 font-regular "
+                    >
+                      {data.title}
+                    </Typography>
+                    <Typography className="h-32 text-left font-regular">
+                      {data.desc}
+                    </Typography>
+                  </CardBody>
+                </Card>
+              </div>
+            </Fade>
+          ))}
+        </div>
       </div>
       <QuoteForm></QuoteForm>
       <div>

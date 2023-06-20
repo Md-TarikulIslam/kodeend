@@ -5,30 +5,28 @@ import {
   CardFooter,
   Typography,
   Button,
+  Chip,
 } from "@material-tailwind/react";
-import { FcServices } from "react-icons/fc";
-
 import allData from "./fakedata";
-import "./Service.css";
-import About from "../About/About";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
-export default function Service() {
+import "./CaseStudies.css";
+
+export default function CaseStudies() {
   return (
     <div>
       <div>
-        <h1 className="what-text">What we can do for you?</h1>
+        <h1 className="what-text">Case studies</h1>
         <h1 className="service-text font-bold">
-          Services we can help you with
+          See how we deliver client's idea into excellent result
         </h1>
       </div>
-
-      <div className="max-w-screen-2xl mx-auto ">
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:grid-cols-3 gap-10">
+      <div className="max-w-screen-2xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:grid-cols-3 gap-0">
           {allData.map((data) => (
-            <Fade key={data.id} duration={500} direction="left">
+            <Fade key={data.id} direction="right" duration={500}>
               <div>
-                <Card className="mt-6 w-96 height">
+                <Card className="my-10 w-96 height6">
                   <CardHeader color="blue-gray" className="relative h-56">
                     <img
                       src={data.img}
@@ -45,13 +43,14 @@ export default function Service() {
                     >
                       {data.title}
                     </Typography>
-                    <Typography className="h-32 text-left font-regular">
+                    <Typography className="desc-height text-left font-regular ">
                       {data.desc}
                     </Typography>
                   </CardBody>
+
                   <CardFooter className="pt-0">
                     <Link to={data.link}>
-                      <Button>Read More</Button>
+                      <Button>Read more</Button>
                     </Link>
                   </CardFooter>
                 </Card>
@@ -60,19 +59,7 @@ export default function Service() {
           ))}
         </div>
       </div>
-
-      <Fade delay={500}>
-        <div className="service-btn">
-          <Link to="/services">
-            {" "}
-            <button className="tracking-widest">MORE SERVICES</button>
-          </Link>
-          <span className="text-3xl">
-            <FcServices />
-          </span>
-        </div>
-      </Fade>
-      <About></About>
+      <ScrollRestoration />
     </div>
   );
 }

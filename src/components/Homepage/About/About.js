@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div>
       <div className="flex flex-col  lg:flex-row lg:items-center px-10  lg:px-28 my-20">
-        <Fade direction="left" duration={1500}>
+        <Fade direction="left" duration={500}>
           <div>
             <img
               className="image-size mx-auto lg:mx-0 rounded-lg shadow-xl shadow-blue-gray-900/50"
@@ -20,7 +20,7 @@ const About = () => {
             />
           </div>
         </Fade>
-        <Fade direction="right" duration={1500}>
+        <Fade direction="right" duration={500}>
           <div>
             <h1 className="who-text">Who we are?</h1>
             <h1 className="service-text font-bold">About us</h1>

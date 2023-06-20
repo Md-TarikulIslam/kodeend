@@ -19,11 +19,12 @@ export default function Services() {
           Services we can help you with
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:pl-48 lg:grid-cols-3  pl-1 lg:pl-32 lg:gap-10 items-center justify-evenly ">
-        {allData.map((data) => (
-          <Fade key={data.id} direction="left">
+      <div className=" max-w-screen-2xl mx-auto ">
+       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:grid-cols-3 gap-0">
+       {allData.map((data) => (
+          <Fade key={data.id} direction="left" duration={500}>
             <div >
-              <Card className="my-16 w-96 height">
+              <Card className="my-10 w-96 height">
                 <CardHeader color="blue-gray" className="relative h-56">
                   <img
                     src={data.img}
@@ -53,6 +54,7 @@ export default function Services() {
             </div>
           </Fade>
         ))}
+       </div>
       </div>
       <ScrollRestoration />
     </div>

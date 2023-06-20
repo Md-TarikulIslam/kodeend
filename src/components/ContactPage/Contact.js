@@ -29,8 +29,8 @@ const Contact = () => {
   };
 
   return (
-    <div>
-      <h1 style={{ marginTop: "70px" }} className="who-text">
+    <div className="py-16">
+      <h1 style={{ marginTop: "35px" }} className="who-text">
         Contact us
       </h1>
       <div>

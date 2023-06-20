@@ -9,40 +9,41 @@ const About = () => {
   return (
     <div>
       <div className="flex flex-col  lg:flex-row lg:items-center px-10  lg:px-28 my-20">
-       <Fade direction="left">
-       <div >
-          <img
-            className="image-size mx-auto lg:mx-0 rounded-lg shadow-xl shadow-blue-gray-900/50"
-            src={img}
-            alt="nature image"
-          />
-        </div>
-       </Fade>
-        <Fade direction="right">
-        <div >
-          <h1 className="who-text">Who we are?</h1>
-          <h1 className="service-text font-bold">About us</h1>
-          <h1 className=" text-left mt-10 text-lg">
-            At KodeEnd IT Solutions, we specialize in utilizing cutting-edge
-            technologies such as computer vision, artificial intelligence, and
-            web development to provide innovative solutions for our clients. Our
-            team of experts are dedicated to delivering high-quality services
-            that help companies optimize their operations and drive growth.
-            Whether you're looking to streamline processes, improve customer
-            engagement, or gain valuable insights, we have the expertise and
-            experience to help you achieve your goals. Contact us today to learn
-            more about how we can help you take your business to the next level.
-          </h1>
-          <div className="read-btn">
-            <Link to="/blogs">
-              {" "}
-              <button className="tracking-widest">READ MORE</button>
-            </Link>
-            <span className="text-5xl">
-              <FcReading />
-            </span>
+        <Fade direction="left" duration={500}>
+          <div>
+            <img
+              className="image-size mx-auto lg:mx-0 rounded-lg shadow-xl shadow-blue-gray-900/50"
+              src={img}
+              alt="nature image"
+            />
           </div>
-        </div>
+        </Fade>
+        <Fade direction="right" duration={500}>
+          <div>
+            <h1 className="who-text">Who we are?</h1>
+            <h1 className="service-text font-bold">About us</h1>
+            <h1 className=" text-left mt-10 text-lg">
+              At KodeEnd IT Solutions, we specialize in utilizing cutting-edge
+              technologies such as computer vision, artificial intelligence, and
+              web development to provide innovative solutions for our clients.
+              Our team of experts are dedicated to delivering high-quality
+              services that help companies optimize their operations and drive
+              growth. Whether you're looking to streamline processes, improve
+              customer engagement, or gain valuable insights, we have the
+              expertise and experience to help you achieve your goals. Contact
+              us today to learn more about how we can help you take your
+              business to the next level.
+            </h1>
+            <div className="read-btn">
+              <Link to="/blogs">
+                {" "}
+                <button className="tracking-widest">READ MORE</button>
+              </Link>
+              <span className="text-5xl">
+                <FcReading />
+              </span>
+            </div>
+          </div>
         </Fade>
       </div>
       <ScrollRestoration />
