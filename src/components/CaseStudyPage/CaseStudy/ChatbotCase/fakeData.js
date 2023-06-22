@@ -2,7 +2,7 @@ const fakeData = [
   {
     id: 1,
     title: "Introduction",
-    desc: "At Horizon Solutions, a leading AI consultancy firm, we understand the importance of exceptional customer support in today's competitive business landscape. To help companies enhance their customer service operations, we have developed a customized chatbot using ChatGPT, a state-of-the-art language model. This case study showcases how our AI-powered chatbot solution revolutionized customer support, increasing efficiency, and customer satisfaction.",
+    desc: "At KodeEnd Solutions, a leading AI consultancy firm, we understand the importance of exceptional customer support in today's competitive business landscape. To help companies enhance their customer service operations, we have developed a customized chatbot using ChatGPT, a state-of-the-art language model. This case study showcases how our AI-powered chatbot solution revolutionized customer support, increasing efficiency, and customer satisfaction.",
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ const fakeData = [
   {
     id: 7,
     title: "Conclusion",
-    desc: "Through the implementation of a customized chatbot for customer support using ChatGPT, we successfully revolutionized our client's customer service operations. The AI-powered chatbot provided efficient, personalized, and round-the-clock support, resulting in improved customer satisfaction and significant cost savings. At Horizon Solutions, we remain committed to    leveraging cutting-edge AI technologies to help businesses achieve their customer support  goals and gain a competitive edge in the market.",
+    desc: "Through the implementation of a customized chatbot for customer support using ChatGPT, we successfully revolutionized our client's customer service operations. The AI-powered chatbot provided efficient, personalized, and round-the-clock support, resulting in improved customer satisfaction and significant cost savings. At KodeEnd Solutions, we remain committed to    leveraging cutting-edge AI technologies to help businesses achieve their customer support  goals and gain a competitive edge in the market.",
   },
   //   {
   //     id: 1,

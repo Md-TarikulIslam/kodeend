@@ -30,11 +30,20 @@ import ProfitMaxCase from "../CaseStudyPage/CaseStudy/ProfitMaxCase/ProfitMax";
 import DeepLearningCase from "../CaseStudyPage/CaseStudy/DeepLearningCase/DeepLearningCase";
 import SocialMediaCase from "../CaseStudyPage/CaseStudy/SocialMediaCase/SocialMediaCase";
 import FraudDetectionCase from "../CaseStudyPage/CaseStudy/FraudDetectionCase/FraudDetectionCase";
+import StockMarketCase from "../CaseStudyPage/CaseStudy/StockMarketCase/StockMarketCase";
+import MaritimePort from "../ConsultingPage/Consalts/MaritimePort/MaritimePort";
+import AI from "../ConsultingPage/Consalts/AI/AI";
+import Error from "../Shared/404/Error";
 
 const LazyCasePage = React.lazy(() =>
   import("../CaseStudyPage/CaseStudies.js")
 );
-
+const LazyPortfoliosPage = React.lazy(() =>
+  import("../PortfolioPage/Portfolios/Portfolios")
+);
+const LazyConsultingPage = React.lazy(() =>
+  import("../ConsultingPage/ConsultingPage")
+);
 const router = createBrowserRouter([
   {
     path: "/",
@@ -121,6 +130,14 @@ const router = createBrowserRouter([
         element: <WebDevelopmentBlog></WebDevelopmentBlog>,
       },
       {
+        path: "/portfolios",
+        element: (
+          <Suspense fallback="loading...">
+            <LazyPortfoliosPage></LazyPortfoliosPage>
+          </Suspense>
+        ),
+      },
+      {
         path: "/case-study",
         element: (
           <Suspense fallback="loading...">
@@ -149,6 +166,26 @@ const router = createBrowserRouter([
         element: <FraudDetectionCase></FraudDetectionCase>,
       },
       {
+        path: "/case-study/stock-market",
+        element: <StockMarketCase></StockMarketCase>,
+      },
+      {
+        path: "/consulting",
+        element: (
+          <Suspense fallback="loading...">
+            <LazyConsultingPage></LazyConsultingPage>
+          </Suspense>
+        ),
+      },
+      {
+        path: "/consulting/maritime-port",
+        element: <MaritimePort></MaritimePort>,
+      },
+      {
+        path: "/consulting/ai",
+        element: <AI></AI>,
+      },
+      {
         path: "/terms",
         element: <TermsAndConditions></TermsAndConditions>,
       },
@@ -159,6 +196,10 @@ const router = createBrowserRouter([
       {
         path: "/gdpr",
         element: <GDPR></GDPR>,
+      },
+      {
+        path: "/*",
+        element: <Error></Error>,
       },
     ],
   },

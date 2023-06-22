@@ -21,34 +21,44 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex  flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 flex  flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-3">
       <Typography as="li" variant="" color="white" className="p-1   ">
-        <Link to="/" className="flex text-xl font-bold items-center">
+        <Link to="/" className="flex text-xl font-bold items-center  hover:underline hover:underline-offset-8">
           Home
         </Link>
       </Typography>
       <Typography as="li" variant="" color="white" className="p-1   ">
-        <Link to="/about" className="flex text-xl font-bold items-center">
+        <Link to="/about" className="flex text-xl font-bold items-center  hover:underline hover:underline-offset-8">
           About
         </Link>
       </Typography>
       <Typography as="li" variant="" color="white" className="p-1   ">
-        <Link to="/services" className="flex text-xl font-bold items-center">
+        <Link to="/services" className="flex text-xl font-bold items-center  hover:underline hover:underline-offset-8">
           Services
         </Link>
       </Typography>
       <Typography as="li" variant="" color="white" className="p-1   ">
-        <Link to="blogs" className="flex text-xl font-bold items-center">
+        <Link to="blogs" className="flex text-xl font-bold items-center  hover:underline hover:underline-offset-8">
           Blogs
         </Link>
       </Typography>
       <Typography as="li" variant="" color="white" className="p-1   ">
-        <Link to="/case-study" className="flex text-xl font-bold items-center">
+        <Link to="/portfolios" className="flex text-xl font-bold items-center  hover:underline hover:underline-offset-8">
+          Portfolios
+        </Link>
+      </Typography>
+      <Typography as="li" variant="" color="white" className="p-1   ">
+        <Link to="/case-study" className="flex text-xl font-bold items-center  hover:underline hover:underline-offset-8">
           Case Study
         </Link>
       </Typography>
       <Typography as="li" variant="" color="white" className="p-1   ">
-        <Link to="/contact" className="flex text-xl font-bold items-center">
+        <Link to="/consulting" className="flex text-xl font-bold items-center  hover:underline hover:underline-offset-8">
+          Consulting
+        </Link>
+      </Typography>
+      <Typography as="li" variant="" color="white" className="p-1   ">
+        <Link to="/contact" className="flex text-xl font-bold items-center  hover:underline hover:underline-offset-8">
           Contact
         </Link>
       </Typography>

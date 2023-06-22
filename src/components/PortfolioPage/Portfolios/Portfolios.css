@@ -1,0 +1,23 @@
+.height4 {
+    height: 750px;
+    transition: transform .1s;
+
+}
+
+.height4:hover {
+    transform: scale(1.03);
+    box-shadow: none;
+    box-shadow: 1px 1px 10px 1px rgba(33, 149, 243, 0.282);
+}
+.port-img{
+    width: 100%;
+}
+.desc {
+    height: 400px;
+}
+
+@media screen and (max-width:640px) {
+    .height4:hover {
+        transform: inherit;
+    }
+}

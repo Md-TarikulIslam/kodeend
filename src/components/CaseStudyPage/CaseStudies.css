@@ -8,8 +8,21 @@
     box-shadow: none;
     box-shadow: 1px 1px 10px 1px rgba(33, 149, 243, 0.282);
 }
+.height7 {
+    height: 820px;
+    transition: transform .1s;
+
+}
+.height7:hover{
+    transform: scale(1.03);
+    box-shadow: none;
+    box-shadow: 1px 1px 10px 1px rgba(33, 149, 243, 0.282);
+}
 .desc-height{
     height: 310px;
+}
+.desc-height2{
+    height: 450px;
 }
 
 @media screen and (max-width:640px) {

@@ -2,7 +2,7 @@ const fakeData = [
   {
     id: 1,
     title: "Introduction",
-    desc: "At Horizon Solutions, a trusted AI consultancy firm, we understand the critical importance of fraud detection in the financial industry. In this case study, we present our innovative approach to enhancing fraud detection using deep autoencoders and graph analytics. By leveraging   advanced AI techniques, we enable financial institutions to proactively detect and prevent fraudulent activities, safeguarding customer assets and maintaining trust in the industry.",
+    desc: "At KodeEnd Solutions, a trusted AI consultancy firm, we understand the critical importance of fraud detection in the financial industry. In this case study, we present our innovative approach to enhancing fraud detection using deep autoencoders and graph analytics. By leveraging   advanced AI techniques, we enable financial institutions to proactively detect and prevent fraudulent activities, safeguarding customer assets and maintaining trust in the industry.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const fakeData = [
   {
     id: 4,
     title: "Solution",
-    desc: "At Horizon Solutions, we developed a cutting-edge fraud detection solution that combines deep  autoencoders and graph analytics. Our approach encompasses the following steps:",
+    desc: "At KodeEnd Solutions, we developed a cutting-edge fraud detection solution that combines deep  autoencoders and graph analytics. Our approach encompasses the following steps:",
     title2: "Data Collection and Preprocessing",
     desc2:
       "We collected a comprehensive dataset of financial transactions, including transactional  attributes such as transaction amount, time, location, and customer information. The data was    carefully preprocessed to handle missing values, normalize numerical features, and encode    categorical variables.",
@@ -60,7 +60,7 @@ const fakeData = [
   {
     id: 7,
     title: "Conclusion",
-    desc: "With Horizon Solutions' fraud detection solution utilizing deep autoencoders and graph analytics, financial institutions can significantly enhance their fraud prevention capabilities. Join  us in combating fraudulent activities, protecting customer assets, and reinforcing trust in the  financial industry.",
+    desc: "With KodeEnd Solutions' fraud detection solution utilizing deep autoencoders and graph analytics, financial institutions can significantly enhance their fraud prevention capabilities. Join  us in combating fraudulent activities, protecting customer assets, and reinforcing trust in the  financial industry.",
   },
   //   {
   //     id: 1,

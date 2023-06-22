@@ -2,7 +2,7 @@ const fakeData = [
   {
     id: 1,
     title: "Introduction",
-    desc: "At Horizon Solutions, a leading AI consultancy firm, we recognize the critical role that brand reputation plays in today's digital landscape. In this case study, we present our innovative approach to unsupervised sentiment analysis, which enables businesses to extract valuable   insights from social media data. By leveraging advanced AI techniques, we empower brands to effectively manage their reputation, enhance customer experiences, and drive business growth.",
+    desc: "At KodeEnd Solutions, a leading AI consultancy firm, we recognize the critical role that brand reputation plays in today's digital landscape. In this case study, we present our innovative approach to unsupervised sentiment analysis, which enables businesses to extract valuable   insights from social media data. By leveraging advanced AI techniques, we empower brands to effectively manage their reputation, enhance customer experiences, and drive business growth.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const fakeData = [
   {
     id: 4,
     title: "Solution",
-    desc: "At Horizon Solutions, we developed a cutting-edge unsupervised sentiment analysis solution to address the challenges faced by our client. Our approach comprises the following steps:",
+    desc: "At KodeEnd Solutions, we developed a cutting-edge unsupervised sentiment analysis solution to address the challenges faced by our client. Our approach comprises the following steps:",
     title2: "Data Collection and Preprocessing",
     desc2:
       "We collected a vast amount of social media data, including posts, comments, and reviews   related to the client's brand. The data was then preprocessed to remove noise, handle  emoticons, abbreviations, and other linguistic variations commonly found in social media text.",
@@ -54,7 +54,7 @@ const fakeData = [
   {
     id: 7,
     title: "Conclusion",
-    desc: "With Horizon Solutions' unsupervised sentiment analysis solution, businesses can leverage social media data to extract valuable insights and manage their brand reputation effectively. Unlock the power of AI-driven sentiment analysis and join us in creating positive customer experiences, driving business growth, and shaping industry standards.",
+    desc: "With KodeEnd Solutions' unsupervised sentiment analysis solution, businesses can leverage social media data to extract valuable insights and manage their brand reputation effectively. Unlock the power of AI-driven sentiment analysis and join us in creating positive customer experiences, driving business growth, and shaping industry standards.",
   },
   //   {
   //     id: 1,

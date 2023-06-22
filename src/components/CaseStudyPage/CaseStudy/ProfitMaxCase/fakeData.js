@@ -2,7 +2,7 @@ const fakeData = [
   {
     id: 1,
     title: "Introduction",
-    desc: "As a leading AI consultancy firm, Horizon Solutions is dedicated to empowering businesses with  cutting-edge AI techniques. In this case study, we delve into the implementation of  reinforcement learning for dynamic pricing in the e-commerce industry. Our solution harnesses  the power of AI to optimize pricing strategies, maximize profitability, and ensure customer satisfaction.",
+    desc: "As a leading AI consultancy firm, KodeEnd Solutions is dedicated to empowering businesses with  cutting-edge AI techniques. In this case study, we delve into the implementation of  reinforcement learning for dynamic pricing in the e-commerce industry. Our solution harnesses  the power of AI to optimize pricing strategies, maximize profitability, and ensure customer satisfaction.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const fakeData = [
   {
     id: 4,
     title: "Solution",
-    desc: "At Horizon Solutions, we proposed a state-of-the-art solution that combined reinforcement  learning with dynamic pricing. Our approach encompassed the following steps:",
+    desc: "At KodeEnd Solutions, we proposed a state-of-the-art solution that combined reinforcement  learning with dynamic pricing. Our approach encompassed the following steps:",
     title2: "Data Collection and Preprocessing",
     desc2:
       "We gathered a comprehensive dataset encompassing historical transaction data, market trends, competitor pricing, and customer behavior. This data formed the foundation for training the   reinforcement learning model.",
@@ -57,7 +57,7 @@ const fakeData = [
   {
     id: 7,
     title: "Conclusion",
-    desc: "By leveraging reinforcement learning for dynamic pricing in the e-commerce industry, our client experienced significant improvements in profitability while maintaining customer satisfaction.   Horizon Solutions remains committed to harnessing the power of AI to transform businesses and drive positive industry-wide change. Unlock the potential of your pricing strategies and  maximize your profitability with our AI consultancy expertise.",
+    desc: "By leveraging reinforcement learning for dynamic pricing in the e-commerce industry, our client experienced significant improvements in profitability while maintaining customer satisfaction.   KodeEnd Solutions remains committed to harnessing the power of AI to transform businesses and drive positive industry-wide change. Unlock the potential of your pricing strategies and  maximize your profitability with our AI consultancy expertise.",
   },
   //   {
   //     id: 1,

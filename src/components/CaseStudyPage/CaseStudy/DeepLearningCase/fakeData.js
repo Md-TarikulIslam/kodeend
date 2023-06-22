@@ -2,7 +2,7 @@ const fakeData = [
   {
     id: 1,
     title: "Introduction",
-    desc: "As a leading AI consultancy firm, Horizon Solutions is committed to leveraging cutting-edge technologies to address critical challenges. In this case study, we present our pioneering work in using deep learning techniques to enable early detection of forest fires. By harnessing the power of satellite imagery and convolutional neural networks (CNNs), we have developed a novel approach that enhances forest fire prevention and response, safeguarding ecosystems and human lives.",
+    desc: "As a leading AI consultancy firm, KodeEnd Solutions is committed to leveraging cutting-edge technologies to address critical challenges. In this case study, we present our pioneering work in using deep learning techniques to enable early detection of forest fires. By harnessing the power of satellite imagery and convolutional neural networks (CNNs), we have developed a novel approach that enhances forest fire prevention and response, safeguarding ecosystems and human lives.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const fakeData = [
   {
     id: 4,
     title: "Solution",
-    desc: "At Horizon Solutions, we developed a groundbreaking solution that integrates deep learning algorithms with satellite imagery to enable early detection of forest fires. Our approach encompasses the following steps:",
+    desc: "At KodeEnd Solutions, we developed a groundbreaking solution that integrates deep learning algorithms with satellite imagery to enable early detection of forest fires. Our approach encompasses the following steps:",
     title2: "Data Collection and Preprocessing",
     desc2:
       "We collected a vast dataset of satellite images encompassing different geographical regions and time periods. These images were carefully preprocessed to remove noise, correct for   atmospheric interference, and normalize the data for further analysis.",
@@ -57,7 +57,7 @@ const fakeData = [
   {
     id: 7,
     title: "Conclusion",
-    desc: "Our deep learning-based approach for early detection of forest fires using satellite imagery and convolutional neural networks has revolutionized the way we combat forest fires. Horizon  Solutions remains at the forefront of AI innovation, working tirelessly to develop advanced solutions that safeguard our environment and enhance public safety. Experience the power of  AI-driven early fire detection and join us in protecting our forests and communities.",
+    desc: "Our deep learning-based approach for early detection of forest fires using satellite imagery and convolutional neural networks has revolutionized the way we combat forest fires. KodeEnd  Solutions remains at the forefront of AI innovation, working tirelessly to develop advanced solutions that safeguard our environment and enhance public safety. Experience the power of  AI-driven early fire detection and join us in protecting our forests and communities.",
   },
   //   {
   //     id: 1,
