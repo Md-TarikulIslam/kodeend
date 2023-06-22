@@ -6,7 +6,7 @@ import img5 from "../../../assets/images/portfolio/5.jpg";
 import img6 from "../../../assets/images/portfolio/6.jpg";
 import img7 from "../../../assets/images/portfolio/7.jpg";
 import img8 from "../../../assets/images/portfolio/8.jpg";
-import img9 from "../../../assets/images/portfolio/9.png";
+import img9 from "../../../assets/images/portfolio/9.jpg";
 
 const fakedata = [
   {
