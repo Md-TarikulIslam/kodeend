@@ -59,7 +59,7 @@ const fakedata = [
     title:
       "Football Stats Looker: Your Ultimate Football Analytics Platform    ",
     desc: "At KodeEnd, we're thrilled to introduce our latest innovation, the 'Football Stats Looker'. This cutting-edge platform is designed to revolutionize the way you interact with football statistics, offering a comprehensive, user-friendly, and interactive experience. ",
-    link: "https://horizondev1.pythonanywhere.com/",
+    link: "https://md-tarikulislam.github.io/coming-soon/",
     c1: "Python",
     c2: "django",
     c3: "rest api",
@@ -70,7 +70,7 @@ const fakedata = [
     img: img6,
     title: "PDF GPT: Revolutionizing Document Interaction    ",
     desc: "At KodeEnd Solutions, we're proud to present our groundbreaking project, 'PDF GPT'. This state-of-the-art platform is designed to redefine the way you interact with PDF documents, offering a unique, user-friendly, and interactive experience.    ",
-    link: "https://md-tarikulislam.github.io/coming-soon/",
+    link: "https://horizon1234.pythonanywhere.com/",
     c1: "ai",
     c2: "chat gpt",
     c3: "data science",
