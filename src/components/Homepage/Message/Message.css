@@ -1,0 +1,40 @@
+.env-position {
+    position: relative;
+    left: 1300px;
+    width: 200px;
+}
+
+@media screen and (max-width:640px) {
+    .env-position {
+        left: 250px;
+        width: 150px;
+    }
+
+    .m-area {
+        position: relative;
+        right: 220px;
+        width: 800px;
+    }
+}
+
+
+@media screen and (min-width:641px) and (max-width:768px) {
+    .env-position {
+        left: 550px;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .env-position {
+        left: 600px;
+    }
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1280px) {
+    .env-position {
+        left: 1050px;
+    }
+
+}

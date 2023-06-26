@@ -1,19 +1,23 @@
+import React from "react";
 import {
-  IconButton,
-  SpeedDial,
-  SpeedDialHandler,
-  SpeedDialContent,
-  Card,
   Button,
-  Typography,
+  Dialog,
+  DialogHeader,
+  DialogBody,
   Input,
   Textarea,
 } from "@material-tailwind/react";
 import emailjs from "@emailjs/browser";
-import { EnvelopeIcon, EnvelopeOpenIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/solid";
 import { useRef } from "react";
+import { FcFeedback } from "react-icons/fc";
+import "./Message.css";
+import img from "../../../assets/images/logo/2.jpg";
 
 export default function Message() {
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => setOpen(!open);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -36,68 +40,71 @@ export default function Message() {
     alert("Send Successfully! Kindly Wait For Reply");
     e.target.reset();
   };
+
   return (
-    <div className="relative w-full h-80 lg:h-10 mb-5">
-      <div className="absolute bottom-0 right-9">
-        <SpeedDial>
-          <SpeedDialHandler>
-            <IconButton size="lg" className="rounded-full">
-              <EnvelopeOpenIcon className="hidden h-5 w-5 group-hover:block" />
-              <EnvelopeIcon className="block h-5 w-5 group-hover:hidden" />
-            </IconButton>
-          </SpeedDialHandler>
-          <SpeedDialContent className="">
-            <Card
-              color="white"
-              shadow={false}
-              className="absolute -right-6 bottom-0 "
-            >
-              <Typography
-                variant="h4"
-                color="blue-gray"
-                className="text-center"
-              >
-                Send A Quick Message
-              </Typography>
+    <React.Fragment>
+      <button className="text-4xl env-position " onClick={handleOpen}>
+        <img src={img} alt="" />
+      </button>
+      <div>
+        <Dialog open={open} handler={handleOpen} className="m-area">
+          <div className="flex items-center justify-center">
+            <DialogHeader>Send a quick message!</DialogHeader>
+            <XMarkIcon className="mr-3 h-5 w-5" onClick={handleOpen} />
+          </div>
+          <DialogBody divider>
+            <div className="grid gap-6 ">
+              <form ref={form} onSubmit={sendEmail} className="">
+                <Input
+                  className="input-field"
+                  size="lg"
+                  color="indigo"
+                  label="Enter Your Name"
+                  name="name"
+                  type="text"
+                  required
+                />
+                <br />
+                <Input
+                  className="input-field"
+                  size="lg"
+                  color="indigo"
+                  label="Enter Your Email"
+                  name="email"
+                  type="email"
+                  required
+                />{" "}
+                <br />
+                <Textarea
+                  color="indigo"
+                  size="lg"
+                  label="Your Message"
+                  type="text"
+                  name="textarea"
+                  required
+                />
+                <div className="flex items-center gap-5">
+                  <Button
+                    variant="outlined"
+                    color="red"
+                    className="h-1/2"
+                    onClick={handleOpen}
+                  >
+                    close
+                  </Button>
 
-              <form
-                ref={form}
-                onSubmit={sendEmail}
-                className="mt-8 mb-2 w-80 max-w-screen-sm sm:w-96 "
-              >
-                <div className="mb-4 flex flex-col gap-2 lg:gap-6">
-                  <Input
-                    size="lg"
-                    label="Enter Your Name"
-                    name="name"
-                    type="text"
-                    required
-                  />
-                  <Input
-                    size="lg"
-                    label="Enter Your Email"
-                    name="email"
-                    type="email"
-                    required
-                  />
-                  <Textarea
-                    color="indigo"
-                    size="lg"
-                    label="Your Message"
-                    type="text"
-                    name="textarea"
-                    required
-                  />
+                  <div className="send-btn3">
+                    <button className="tracking-widest">SEND</button>
+                    <span className="text-3xl">
+                      <FcFeedback />
+                    </span>
+                  </div>
                 </div>
-
-                <Button className="mt-6" fullWidth>
-                  Send Message
-                </Button>
               </form>
-            </Card>
-          </SpeedDialContent>
-        </SpeedDial>
+            </div>
+          </DialogBody>
+        </Dialog>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
