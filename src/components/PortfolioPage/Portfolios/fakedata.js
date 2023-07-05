@@ -9,17 +9,17 @@ import img8 from "../../../assets/images/portfolio/8.jpg";
 import img9 from "../../../assets/images/portfolio/9.jpg";
 
 const fakedata = [
-  {
-    id: 1,
-    img: img1,
-    title: "Horizon Rising Star",
-    desc: "Horizon Rising Star is an ICT Solution Service provider along with website & software development firm preserved by a number of professionals ",
-    link: "http://horizonsolutions.tech/",
-    c1: "react",
-    c2: "tailwind css",
-    c3: "css3",
-    c4: "js",
-  },
+  // {
+  //   id: 1,
+  //   img: img1,
+  //   title: "Horizon Rising Star",
+  //   desc: "Horizon Rising Star is an ICT Solution Service provider along with website & software development firm preserved by a number of professionals ",
+  //   link: "http://horizonsolutions.tech/",
+  //   c1: "react",
+  //   c2: "tailwind css",
+  //   c3: "css3",
+  //   c4: "js",
+  // },
   {
     id: 2,
     img: img2,
